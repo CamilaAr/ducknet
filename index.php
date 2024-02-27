@@ -1,9 +1,15 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+<?php include('style.css');   ?>
 
 <head>
+
+
+    <link rel="stylesheet" type="text/css" media="all" href="style.css">
     <!-- UIkit CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.18.3/dist/css/uikit.min.css" />
+
+    
 
     <!-- UIkit JS -->
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.18.3/dist/js/uikit.min.js"></script>
@@ -14,8 +20,9 @@
 </head>
 
 <body>
+
     <header>
-        <div style="background-color: black; color: white;">
+        <div class="cabec">
             <div class="uk-container" uk-grid>
                 <div class="uk-width-1-3">
                     testandoo
