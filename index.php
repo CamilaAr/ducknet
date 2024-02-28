@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<?php include('style.css');   ?>
+
 
 <head>
 
 
-    <link rel="stylesheet" type="text/css" media="all" href="style.css">
+    <link rel="stylesheet" type="text/css" media="all" href='assets/style.css'>
     <!-- UIkit CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.18.3/dist/css/uikit.min.css" />
 
-    
+
 
     <!-- UIkit JS -->
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.18.3/dist/js/uikit.min.js"></script>
@@ -23,25 +23,47 @@
 
     <header>
         <div class="cabec">
-            <div class="uk-container" uk-grid>
-                <div class="uk-width-1-3">
-                    testandoo
-                </div>
-                
+            <div class="uk-container">
+                <div uk-grid>
+                    <div class="uk-width-1-2" style="text-align: left;">
+                        (99) 9999-9999
+                    </div>
 
+                    <div class="uk-width-1-2" style="text-align: right;">
+                        <img src="caminho/para/sua/imagem.jpg" alt="Descrição da imagem">
+                        <img src="caminho/para/sua/imagem.jpg" alt="Descrição da imagem">
+                    </div>
+
+                </div>
             </div>
-            teste
+
         </div>
     </header>
     <div class="uk-container">
-        <h1>Olá, mundo!</h1>
-        <p>Esta é uma página PHP básica.</p>
-
-        <?php
-        // Exemplo de código PHP
-        $nome = "João";
-        echo "<p>Oi, $nome! Bem-vindo à minha página PHP.</p>";
-        ?>
+        <div>
+            <nav uk-dropnav>
+                <ul class="uk-subnav">
+                    <li class="uk-active"><a href="#">PLANOS</a></li>
+                    
+                    </li>
+                    <!--
+                    <li>
+                        <a href>Parent <span uk-drop-parent-icon></span></a>
+                        <div class="uk-dropdown">
+                            <ul class="uk-nav uk-dropdown-nav">
+                                <li class="uk-active"><a href="#">Active</a></li>
+                                <li><a href="#">Item</a></li>
+                                <li><a href="#">Item</a></li>
+                            </ul>
+                        </div>
+                    </li>
+-->
+                    <li><a href="#">SOBRE NÓS</a></li>
+                    <li><a href="#">CONTATO</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </nav>
+        </div>
     </div>
 </body>
 
