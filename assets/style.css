@@ -6,3 +6,59 @@
     padding-top:10px;
     padding-bottom: 10px;
 }
+
+/* Estilo da borda */
+.borda-customizada {
+    border-style: solid; /* Estilo da borda (pode ser solid, dashed, dotted, etc.) */
+    border-width: 3px; /* Largura da borda */
+    border-color: black; /* Cor da borda */
+    border-radius: 5px; /* Raio do arredondamento dos cantos da borda */
+
+}
+
+
+
+.menu{
+
+}
+
+.itemMenu {
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+.cartao {
+    background-color: #FF7B16 !important;
+    border-radius: 20px;
+    font-weight: bolder;
+}
+
+.titulo-card{
+    color: #004250;
+    font-weight: bold;
+
+}
+
+.texto-card{
+    color: white;
+}
+
+.botao-padrao{
+    border-radius: 8px !important;
+    background-color: #004250;
+    color:white !important;
+    font-size: 20px !important;
+    font-weight: bold !important;
+    padding: 8px 30px !important;
+
+}
+
+
+@media (max-width: 900px){
+
+}
+
+@media (min-width: 900px){
+
+}

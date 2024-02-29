@@ -1,70 +1,91 @@
-<!DOCTYPE html>
-<html lang="pt-br">
+<?php
 
+include 'header.php';
 
-<head>
+?>
 
+<div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="animation: push">
 
-    <link rel="stylesheet" type="text/css" media="all" href='assets/style.css'>
-    <!-- UIkit CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.18.3/dist/css/uikit.min.css" />
+    <ul class="uk-slideshow-items" style="height: 500px;">
 
+        <li>
+            <img src="assets/imagens/b2.jpg" alt="" uk-cover>
+        </li>
+        <li>
+            <iframe src="https://www.youtube-nocookie.com/embed/c2pz2mlSfXA?autoplay=1&amp;controls=0&amp;showinfo=0&amp;rel=0&amp;loop=1&amp;modestbranding=1&amp;wmode=transparent&amp;playsinline=1" width="1920" height="1080" allowfullscreen uk-cover></iframe>
+        </li>
 
+        <li>
+            <img src="assets/imagens/b2.jpg" alt="" uk-cover>
+        </li>
+    </ul>
 
-    <!-- UIkit JS -->
-    <script src="https://cdn.jsdelivr.net/npm/uikit@3.18.3/dist/js/uikit.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/uikit@3.18.3/dist/js/uikit-icons.min.js"></script>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Minha Página</title>
-</head>
+    <a class="uk-position-center-left uk-position-small uk-hidden-hover" href uk-slidenav-previous uk-slideshow-item="previous"></a>
+    <a class="uk-position-center-right uk-position-small uk-hidden-hover" href uk-slidenav-next uk-slideshow-item="next"></a>
 
-<body>
+</div>
 
-    <header>
-        <div class="cabec">
-            <div class="uk-container">
-                <div uk-grid>
-                    <div class="uk-width-1-2" style="text-align: left;">
-                        (99) 9999-9999
-                    </div>
-
-                    <div class="uk-width-1-2" style="text-align: right;">
-                        <img src="caminho/para/sua/imagem.jpg" alt="Descrição da imagem">
-                        <img src="caminho/para/sua/imagem.jpg" alt="Descrição da imagem">
-                    </div>
-
-                </div>
+<div class="uk-container">
+    <br>
+    <div style="text-align: center;" class="uk-child-width-1-3@m uk-grid-match" uk-grid>
+        <div class="">
+            <div class="cartao uk-card uk-card-default uk-card-body ">
+                <img width="80" src="assets/imagens/icone.png" alt="">
+                <h3 class="uk-card-title titulo-card">Resultados Imediatos</h3>
+                <p class="texto-card">Aumento de clientes nas pimeiras semanas</p>
             </div>
+        </div>
 
+        <div class="">
+            <div class="cartao uk-card uk-card-default uk-card-body ">
+                <img width="80" src="assets/imagens/icone.png" alt="">
+                <h3 class="uk-card-title titulo-card">Resultados Imediatos</h3>
+                <p class="texto-card">Aumento de clientes nas pimeiras semanas</p>
+            </div>
         </div>
-    </header>
-    <div class="uk-container">
-        <div>
-            <nav uk-dropnav>
-                <ul class="uk-subnav">
-                    <li class="uk-active"><a href="#">PLANOS</a></li>
-                    
-                    </li>
-                    <!--
-                    <li>
-                        <a href>Parent <span uk-drop-parent-icon></span></a>
-                        <div class="uk-dropdown">
-                            <ul class="uk-nav uk-dropdown-nav">
-                                <li class="uk-active"><a href="#">Active</a></li>
-                                <li><a href="#">Item</a></li>
-                                <li><a href="#">Item</a></li>
-                            </ul>
-                        </div>
-                    </li>
--->
-                    <li><a href="#">SOBRE NÓS</a></li>
-                    <li><a href="#">CONTATO</a></li>
-                    <li><a href="#">FAQ</a></li>
-                </ul>
-            </nav>
+
+        <div class="">
+            <div class="cartao uk-card uk-card-default uk-card-body ">
+                <img width="80" src="assets/imagens/icone.png" alt="">
+                <h3 class="uk-card-title titulo-card">Resultados Imediatos</h3>
+                <p class="texto-card">Aumento de clientes nas pimeiras semanas</p>
+            </div>
         </div>
+
+        <div class="">
+            <div class="cartao uk-card uk-card-default uk-card-body ">
+                <img width="80" src="assets/imagens/icone.png" alt="">
+                <h3 class="uk-card-title titulo-card">Resultados Imediatos</h3>
+                <p class="texto-card">Aumento de clientes nas pimeiras semanas</p>
+            </div>
+        </div>
+
+        <div class="">
+            <div class="cartao uk-card uk-card-default uk-card-body ">
+                <img width="80" src="assets/imagens/icone.png" alt="">
+                <h3 class="uk-card-title titulo-card">Resultados Imediatos</h3>
+                <p class="texto-card">Aumento de clientes nas pimeiras semanas</p>
+            </div>
+        </div>
+
+        <div class="">
+            <div class="cartao uk-card uk-card-default uk-card-body ">
+                <img width="80" src="assets/imagens/icone.png" alt="">
+                <h3 class="uk-card-title titulo-card">Resultados Imediatos</h3>
+                <p class="texto-card">Aumento de clientes nas pimeiras semanas</p>
+            </div>
+        </div>
+
     </div>
+    <br>
+    <div style="text-align: center;">
+        <button class="uk-button botao-padrao">APROVEITAR AGORA</button>
+    </div>
+
+
+
+</div>
+
 </body>
 
 </html>
