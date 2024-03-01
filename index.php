@@ -134,7 +134,7 @@ include 'header.php';
     <div class="uk-child-width-1-3" uk-grid>
         <div>
             <div class="uk-card uk-card-default uk-card-body card-planos-prata">
-                <h3 class="uk-card-title titulo-card-plano">PRATA</h3>
+                <h3 class=" titulo-card-plano">PRATA</h3>
                 <div class="uk-flex uk-flex-middle">
                     <div style="padding-right: 5px;">
                         <img src="assets/imagens/check.png" width="20" alt="Vantagens" class="imagem-vantagem">
@@ -216,6 +216,15 @@ include 'header.php';
                         <p class="texto-card-planos"> Desconto em alterações complexas</p>
                     </div>
                 </div>
+
+                <div class="linha-planos"> </div>
+                <h4 class="texto-investir ">Investir por apenas: <br> <span class="texto-destaque"> R$ 999,99 </span> </h4>
+                <div class="linha-planos"> </div>
+            </div>
+
+            <div style="text-align: center;">
+                <br>
+                <button class="uk-button botao-fundo-escuro">QUERO SER PRATA</button>
             </div>
         </div>
 
@@ -223,7 +232,7 @@ include 'header.php';
 
         <div>
             <div class="uk-card uk-card-default uk-card-body card-planos-ouro">
-                <h3 class="uk-card-title titulo-card-plano">OURO</h3>
+                <h3 class="titulo-card-plano">OURO</h3>
                 <div class="uk-flex uk-flex-middle">
                     <div style="padding-right: 5px;">
                         <img src="assets/imagens/check.png" width="20" alt="Vantagens" class="imagem-vantagem">
@@ -305,6 +314,15 @@ include 'header.php';
                         <p class="texto-card-planos"> Desconto em alterações complexas</p>
                     </div>
                 </div>
+
+                <div class="linha-planos"> </div>
+                <h4 class="texto-investir ">Investir por apenas: <br> <span class="texto-destaque"> R$ 1.499,99 </span> </h4>
+                <div class="linha-planos"> </div>
+            </div>
+
+            <div style="text-align: center;">
+                <br>
+                <button class="uk-button botao-fundo-escuro">QUERO SER PRATA</button>
             </div>
         </div>
 
@@ -312,7 +330,7 @@ include 'header.php';
 
         <div>
             <div class="uk-card uk-card-default uk-card-body card-planos-platinum">
-                <h3 class="uk-card-title titulo-card-plano">PLATINUM</h3>
+                <h3 class=" titulo-card-plano">PLATINUM</h3>
                 <div class="uk-flex uk-flex-middle">
                     <div style="padding-right: 5px;">
                         <img src="assets/imagens/check.png" width="20" alt="Vantagens" class="imagem-vantagem">
@@ -394,12 +412,125 @@ include 'header.php';
                         <p class="texto-card-planos"> Desconto em alterações complexas</p>
                     </div>
                 </div>
+
+                <div class="linha-planos"> </div>
+                <h4 class="texto-investir ">Investir por apenas: <br> <span class="texto-destaque"> R$ 1.899,99 </span> </h4>
+                <div class="linha-planos"> </div>
+            </div>
+
+            <div style="text-align: center;">
+                <br>
+                <button class="uk-button botao-fundo-escuro">QUERO SER PRATA</button>
+            </div>
+
+        </div>
+
+        <div class="uk-inline">
+
+
+
+            <div class="uk-position-center">
+                <div class="uk-card uk-card-default uk-card-body card-planos-ouro">
+                    <h3 class="titulo-card-plano">ADICIONAL MENSAL <br> PLANO SUPORTE</h3>
+                    <div class="uk-flex uk-flex-middle">
+                        <div style="padding-right: 5px;">
+                            <img src="assets/imagens/check.png" width="20" alt="Vantagens" class="imagem-vantagem">
+                        </div>
+                        <div style="margin-top: 20px;">
+
+                            <p class="texto-card-planos"> Landing page simples (1 pagina)</p>
+                        </div>
+                    </div>
+                    <div class="uk-flex uk-flex-middle">
+                        <div style="padding-right: 5px;">
+                            <img src="assets/imagens/check.png" width="20" alt="Vantagens" class="imagem-vantagem">
+                        </div>
+                        <div style="margin-top: 20px;">
+
+                            <p class="texto-card-planos"> Contato por WhatsApp</p>
+                        </div>
+                    </div>
+                    <div class="uk-flex uk-flex-middle">
+                        <div style="padding-right: 5px;">
+                            <img src="assets/imagens/check.png" width="20" alt="Vantagens" class="imagem-vantagem">
+                        </div>
+                        <div style="margin-top: 20px;">
+
+                            <p class="texto-card-planos"> Lista E-mail marketing</p>
+                        </div>
+                    </div>
+                    <div class="uk-flex uk-flex-middle">
+                        <div style="padding-right: 5px;">
+                            <img src="assets/imagens/check.png" width="20" alt="Vantagens" class="imagem-vantagem">
+                        </div>
+                        <div style="margin-top: 20px;">
+
+                            <p class="texto-card-planos"> Suporte</p>
+                        </div>
+                    </div>
+                    <div class="uk-flex uk-flex-middle">
+                        <div style="padding-right: 5px;">
+                            <img src="assets/imagens/check.png" width="20" alt="Vantagens" class="imagem-vantagem">
+                        </div>
+                        <div style="margin-top: 20px;">
+
+                            <p class="texto-card-planos"> Alterações de imagens e texto</p>
+                        </div>
+                    </div>
+                    <div class="uk-flex uk-flex-middle">
+                        <div style="padding-right: 5px;">
+                            <img src="assets/imagens/check.png" width="20" alt="Vantagens" class="imagem-vantagem">
+                        </div>
+                        <div style="margin-top: 20px;">
+
+                            <p class="texto-card-planos"> Tráfego pago</p>
+                        </div>
+                    </div>
+                    <div class="uk-flex uk-flex-middle">
+                        <div style="padding-right: 5px;">
+                            <img src="assets/imagens/check.png" width="20" alt="Vantagens" class="imagem-vantagem">
+                        </div>
+                        <div style="margin-top: 20px;">
+
+                            <p class="texto-card-planos"> Manutenção</p>
+                        </div>
+                    </div>
+                    <div class="uk-flex uk-flex-middle">
+                        <div style="padding-right: 5px;">
+                            <img src="assets/imagens/check.png" width="20" alt="Vantagens" class="imagem-vantagem">
+                        </div>
+                        <div style="margin-top: 20px;">
+
+                            <p class="texto-card-planos"> Banner mensal</p>
+                        </div>
+                    </div>
+                    <div class="uk-flex uk-flex-middle">
+                        <div style="padding-right: 5px;">
+                            <img src="assets/imagens/check.png" width="20" alt="Vantagens" class="imagem-vantagem">
+                        </div>
+                        <div style="margin-top: 20px;">
+
+                            <p class="texto-card-planos"> Desconto em alterações complexas</p>
+                        </div>
+                    </div>
+
+                    <div class="linha-planos"> </div>
+                    <h4 class="texto-investir ">Investir por apenas: <br> <span class="texto-destaque"> R$ 1.499,99 </span> </h4>
+                    <div class="linha-planos"> </div>
+                </div>
+
+                <div style="text-align: center;">
+                    <br>
+                    <button class="uk-button botao-fundo-escuro">QUERO SER PRATA</button>
+                </div>
             </div>
 
         </div>
 
     </div>
 
-    </body>
+</div>
 
-    </html>
+</body>
+
+</html>

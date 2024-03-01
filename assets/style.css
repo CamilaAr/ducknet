@@ -82,6 +82,7 @@
 .titulo-card-plano {
     text-align: center;
     font-weight: bold;
+    color: black;
 }
 
 .card-planos-prata{
@@ -113,6 +114,18 @@
 
 .texto-card-planos{
     color: black;
+    font-weight: bold;
+}
+
+.linha-planos{
+    background-color:#004250; 
+    height: 5px;
+}
+
+.texto-investir {
+    font-weight: bold; 
+    color: black; 
+    text-align:center;
 }
 
 @media (max-width: 900px){
