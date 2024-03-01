@@ -112,6 +112,18 @@
     background: linear-gradient(180deg, rgba(175,33,127,1) 0%, rgba(199,66,171,1) 47%, rgba(255,255,255,1) 91%);
 }
 
+
+.card-planos-suporte{
+    border-style: solid; /* Estilo da borda (pode ser solid, dashed, dotted, etc.) */
+    border-width: 2px; /* Largura da borda */
+    border-color: black; /* Cor da borda */
+    border-radius: 20px; /* Raio do arredondamento dos cantos da borda */
+    background: rgb(20,25,113);
+    background: linear-gradient(180deg, rgba(20,25,113,1) 0%, rgba(83,87,255,1) 47%, rgba(255,255,255,1) 91%);
+}
+
+
+
 .texto-card-planos{
     color: black;
     font-weight: bold;
