@@ -54,6 +54,66 @@
 
 }
 
+.titulo{
+    color: #FF7B16;
+    font-weight: bold;
+
+}
+
+.texto{
+    color:white;
+}
+
+.texto-destaque {
+    font-weight: bold;
+    color: #FF7B16;
+    font-size: 30px;
+}
+
+.botao-fundo-escuro {
+    border-radius: 8px !important;
+    background-color: #FF7B16;
+    color:white !important;
+    font-size: 20px !important;
+    font-weight: bold !important;
+    padding: 8px 30px !important;    
+}
+
+.titulo-card-plano {
+    text-align: center;
+    font-weight: bold;
+}
+
+.card-planos-prata{
+    border-style: solid; /* Estilo da borda (pode ser solid, dashed, dotted, etc.) */
+    border-width: 2px; /* Largura da borda */
+    border-color: black; /* Cor da borda */
+    border-radius: 20px; /* Raio do arredondamento dos cantos da borda */
+    background: rgb(115,115,115);
+    background: linear-gradient(180deg, rgba(115,115,115,1) 0%, rgba(153,159,148,1) 47%, rgba(255,255,255,1) 91%);
+}
+
+.card-planos-ouro{
+    border-style: solid; /* Estilo da borda (pode ser solid, dashed, dotted, etc.) */
+    border-width: 2px; /* Largura da borda */
+    border-color: black; /* Cor da borda */
+    border-radius: 20px; /* Raio do arredondamento dos cantos da borda */
+    background: rgb(137,73,0);
+    background: linear-gradient(180deg, rgba(137,73,0,1) 0%, rgba(247,220,116,1) 47%, rgba(255,255,255,1) 91%);
+}
+
+.card-planos-platinum{
+    border-style: solid; /* Estilo da borda (pode ser solid, dashed, dotted, etc.) */
+    border-width: 2px; /* Largura da borda */
+    border-color: black; /* Cor da borda */
+    border-radius: 20px; /* Raio do arredondamento dos cantos da borda */
+    background: rgb(175,33,127);
+    background: linear-gradient(180deg, rgba(175,33,127,1) 0%, rgba(199,66,171,1) 47%, rgba(255,255,255,1) 91%);
+}
+
+.texto-card-planos{
+    color: black;
+}
 
 @media (max-width: 900px){
 

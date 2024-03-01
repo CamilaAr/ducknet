@@ -85,7 +85,321 @@ include 'header.php';
 
 
 </div>
+<br>
+<div style="background-color: #004250;">
 
-</body>
+    <div style="text-align:center" class="uk-container">
 
-</html>
+        <div>
+            <br>
+            <h1 class="titulo"> POUPE TEMPO E GANHE DINHEIRO </h1>
+        </div>
+
+        <div uk-grid>
+
+            <div class="uk-width-1-2">
+                <br><br>
+                <h3 class="texto"> Montamos pra você um site <span class="texto-destaque"> ATRATIVO </span>,
+                    com público alvo <span class="texto-destaque"> FOCADO </span>, que dará o
+                    <span class="texto-destaque"> DESTAQUE </span> que o
+                    <span class="texto-destaque"> SEU PRODUTO </span> precisa pra
+                    <span class="texto-destaque"> VOCÊ SAIR NA FRENTE </span> de qulquer concorrente!
+                </h3>
+            </div>
+
+            <div class="uk-width-1-2">
+                <img width="500" src="assets/imagens/homem.png" alt="">
+            </div>
+
+        </div>
+
+        <div style="text-align: center;">
+            <button class="uk-button botao-fundo-escuro">ADQUIRIR AGORA</button>
+        </div>
+
+        <BR>
+
+    </div>
+    <br>
+
+</div>
+
+<div class="uk-container">
+    <div style="text-align:center">
+        <br>
+        <h1 class="titulo"> NOSSOS PLANOS </h1>
+
+    </div>
+
+    <div class="uk-child-width-1-3" uk-grid>
+        <div>
+            <div class="uk-card uk-card-default uk-card-body card-planos-prata">
+                <h3 class="uk-card-title titulo-card-plano">PRATA</h3>
+                <div class="uk-flex uk-flex-middle">
+                    <div style="padding-right: 5px;">
+                        <img src="assets/imagens/check.png" width="20" alt="Vantagens" class="imagem-vantagem">
+                    </div>
+                    <div style="margin-top: 20px;">
+
+                        <p class="texto-card-planos"> Landing page simples (1 pagina)</p>
+                    </div>
+                </div>
+                <div class="uk-flex uk-flex-middle">
+                    <div style="padding-right: 5px;">
+                        <img src="assets/imagens/check.png" width="20" alt="Vantagens" class="imagem-vantagem">
+                    </div>
+                    <div style="margin-top: 20px;">
+
+                        <p class="texto-card-planos"> Contato por WhatsApp</p>
+                    </div>
+                </div>
+                <div class="uk-flex uk-flex-middle">
+                    <div style="padding-right: 5px;">
+                        <img src="assets/imagens/check.png" width="20" alt="Vantagens" class="imagem-vantagem">
+                    </div>
+                    <div style="margin-top: 20px;">
+
+                        <p class="texto-card-planos"> Lista E-mail marketing</p>
+                    </div>
+                </div>
+                <div class="uk-flex uk-flex-middle">
+                    <div style="padding-right: 5px;">
+                        <img src="assets/imagens/check.png" width="20" alt="Vantagens" class="imagem-vantagem">
+                    </div>
+                    <div style="margin-top: 20px;">
+
+                        <p class="texto-card-planos"> Suporte</p>
+                    </div>
+                </div>
+                <div class="uk-flex uk-flex-middle">
+                    <div style="padding-right: 5px;">
+                        <img src="assets/imagens/check.png" width="20" alt="Vantagens" class="imagem-vantagem">
+                    </div>
+                    <div style="margin-top: 20px;">
+
+                        <p class="texto-card-planos"> Alterações de imagens e texto</p>
+                    </div>
+                </div>
+                <div class="uk-flex uk-flex-middle">
+                    <div style="padding-right: 5px;">
+                        <img src="assets/imagens/check.png" width="20" alt="Vantagens" class="imagem-vantagem">
+                    </div>
+                    <div style="margin-top: 20px;">
+
+                        <p class="texto-card-planos"> Tráfego pago</p>
+                    </div>
+                </div>
+                <div class="uk-flex uk-flex-middle">
+                    <div style="padding-right: 5px;">
+                        <img src="assets/imagens/check.png" width="20" alt="Vantagens" class="imagem-vantagem">
+                    </div>
+                    <div style="margin-top: 20px;">
+
+                        <p class="texto-card-planos"> Manutenção</p>
+                    </div>
+                </div>
+                <div class="uk-flex uk-flex-middle">
+                    <div style="padding-right: 5px;">
+                        <img src="assets/imagens/check.png" width="20" alt="Vantagens" class="imagem-vantagem">
+                    </div>
+                    <div style="margin-top: 20px;">
+
+                        <p class="texto-card-planos"> Banner mensal</p>
+                    </div>
+                </div>
+                <div class="uk-flex uk-flex-middle">
+                    <div style="padding-right: 5px;">
+                        <img src="assets/imagens/check.png" width="20" alt="Vantagens" class="imagem-vantagem">
+                    </div>
+                    <div style="margin-top: 20px;">
+
+                        <p class="texto-card-planos"> Desconto em alterações complexas</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div>
+            <div class="uk-card uk-card-default uk-card-body card-planos-ouro">
+                <h3 class="uk-card-title titulo-card-plano">OURO</h3>
+                <div class="uk-flex uk-flex-middle">
+                    <div style="padding-right: 5px;">
+                        <img src="assets/imagens/check.png" width="20" alt="Vantagens" class="imagem-vantagem">
+                    </div>
+                    <div style="margin-top: 20px;">
+
+                        <p class="texto-card-planos"> Landing page simples (1 pagina)</p>
+                    </div>
+                </div>
+                <div class="uk-flex uk-flex-middle">
+                    <div style="padding-right: 5px;">
+                        <img src="assets/imagens/check.png" width="20" alt="Vantagens" class="imagem-vantagem">
+                    </div>
+                    <div style="margin-top: 20px;">
+
+                        <p class="texto-card-planos"> Contato por WhatsApp</p>
+                    </div>
+                </div>
+                <div class="uk-flex uk-flex-middle">
+                    <div style="padding-right: 5px;">
+                        <img src="assets/imagens/check.png" width="20" alt="Vantagens" class="imagem-vantagem">
+                    </div>
+                    <div style="margin-top: 20px;">
+
+                        <p class="texto-card-planos"> Lista E-mail marketing</p>
+                    </div>
+                </div>
+                <div class="uk-flex uk-flex-middle">
+                    <div style="padding-right: 5px;">
+                        <img src="assets/imagens/check.png" width="20" alt="Vantagens" class="imagem-vantagem">
+                    </div>
+                    <div style="margin-top: 20px;">
+
+                        <p class="texto-card-planos"> Suporte</p>
+                    </div>
+                </div>
+                <div class="uk-flex uk-flex-middle">
+                    <div style="padding-right: 5px;">
+                        <img src="assets/imagens/check.png" width="20" alt="Vantagens" class="imagem-vantagem">
+                    </div>
+                    <div style="margin-top: 20px;">
+
+                        <p class="texto-card-planos"> Alterações de imagens e texto</p>
+                    </div>
+                </div>
+                <div class="uk-flex uk-flex-middle">
+                    <div style="padding-right: 5px;">
+                        <img src="assets/imagens/check.png" width="20" alt="Vantagens" class="imagem-vantagem">
+                    </div>
+                    <div style="margin-top: 20px;">
+
+                        <p class="texto-card-planos"> Tráfego pago</p>
+                    </div>
+                </div>
+                <div class="uk-flex uk-flex-middle">
+                    <div style="padding-right: 5px;">
+                        <img src="assets/imagens/check.png" width="20" alt="Vantagens" class="imagem-vantagem">
+                    </div>
+                    <div style="margin-top: 20px;">
+
+                        <p class="texto-card-planos"> Manutenção</p>
+                    </div>
+                </div>
+                <div class="uk-flex uk-flex-middle">
+                    <div style="padding-right: 5px;">
+                        <img src="assets/imagens/check.png" width="20" alt="Vantagens" class="imagem-vantagem">
+                    </div>
+                    <div style="margin-top: 20px;">
+
+                        <p class="texto-card-planos"> Banner mensal</p>
+                    </div>
+                </div>
+                <div class="uk-flex uk-flex-middle">
+                    <div style="padding-right: 5px;">
+                        <img src="assets/imagens/check.png" width="20" alt="Vantagens" class="imagem-vantagem">
+                    </div>
+                    <div style="margin-top: 20px;">
+
+                        <p class="texto-card-planos"> Desconto em alterações complexas</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div>
+            <div class="uk-card uk-card-default uk-card-body card-planos-platinum">
+                <h3 class="uk-card-title titulo-card-plano">PLATINUM</h3>
+                <div class="uk-flex uk-flex-middle">
+                    <div style="padding-right: 5px;">
+                        <img src="assets/imagens/check.png" width="20" alt="Vantagens" class="imagem-vantagem">
+                    </div>
+                    <div style="margin-top: 20px;">
+
+                        <p class="texto-card-planos"> Landing page simples (1 pagina)</p>
+                    </div>
+                </div>
+                <div class="uk-flex uk-flex-middle">
+                    <div style="padding-right: 5px;">
+                        <img src="assets/imagens/check.png" width="20" alt="Vantagens" class="imagem-vantagem">
+                    </div>
+                    <div style="margin-top: 20px;">
+
+                        <p class="texto-card-planos"> Contato por WhatsApp</p>
+                    </div>
+                </div>
+                <div class="uk-flex uk-flex-middle">
+                    <div style="padding-right: 5px;">
+                        <img src="assets/imagens/check.png" width="20" alt="Vantagens" class="imagem-vantagem">
+                    </div>
+                    <div style="margin-top: 20px;">
+
+                        <p class="texto-card-planos"> Lista E-mail marketing</p>
+                    </div>
+                </div>
+                <div class="uk-flex uk-flex-middle">
+                    <div style="padding-right: 5px;">
+                        <img src="assets/imagens/check.png" width="20" alt="Vantagens" class="imagem-vantagem">
+                    </div>
+                    <div style="margin-top: 20px;">
+
+                        <p class="texto-card-planos"> Suporte</p>
+                    </div>
+                </div>
+                <div class="uk-flex uk-flex-middle">
+                    <div style="padding-right: 5px;">
+                        <img src="assets/imagens/check.png" width="20" alt="Vantagens" class="imagem-vantagem">
+                    </div>
+                    <div style="margin-top: 20px;">
+
+                        <p class="texto-card-planos"> Alterações de imagens e texto</p>
+                    </div>
+                </div>
+                <div class="uk-flex uk-flex-middle">
+                    <div style="padding-right: 5px;">
+                        <img src="assets/imagens/check.png" width="20" alt="Vantagens" class="imagem-vantagem">
+                    </div>
+                    <div style="margin-top: 20px;">
+
+                        <p class="texto-card-planos"> Tráfego pago</p>
+                    </div>
+                </div>
+                <div class="uk-flex uk-flex-middle">
+                    <div style="padding-right: 5px;">
+                        <img src="assets/imagens/check.png" width="20" alt="Vantagens" class="imagem-vantagem">
+                    </div>
+                    <div style="margin-top: 20px;">
+
+                        <p class="texto-card-planos"> Manutenção</p>
+                    </div>
+                </div>
+                <div class="uk-flex uk-flex-middle">
+                    <div style="padding-right: 5px;">
+                        <img src="assets/imagens/check.png" width="20" alt="Vantagens" class="imagem-vantagem">
+                    </div>
+                    <div style="margin-top: 20px;">
+
+                        <p class="texto-card-planos"> Banner mensal</p>
+                    </div>
+                </div>
+                <div class="uk-flex uk-flex-middle">
+                    <div style="padding-right: 5px;">
+                        <img src="assets/imagens/check.png" width="20" alt="Vantagens" class="imagem-vantagem">
+                    </div>
+                    <div style="margin-top: 20px;">
+
+                        <p class="texto-card-planos"> Desconto em alterações complexas</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    </body>
+
+    </html>
