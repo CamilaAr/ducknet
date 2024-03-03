@@ -10,7 +10,6 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.18.3/dist/css/uikit.min.css" />
 
 
-
     <!-- UIkit JS -->
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.18.3/dist/js/uikit.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.18.3/dist/js/uikit-icons.min.js"></script>
@@ -30,8 +29,8 @@
                     </div>
 
                     <div class="uk-width-1-2" style="text-align: right;">
-                        <img src="caminho/para/sua/imagem.jpg" alt="Descrição da imagem">
-                        <img src="caminho/para/sua/imagem.jpg" alt="Descrição da imagem">
+                        <img src="assets/imagens/facebook.png" width="30px;" alt="Descrição da imagem">
+                        <img src="assets/imagens/instagram.png" width="30px;"  alt="Descrição da imagem">
                     </div>
 
                 </div>
@@ -45,11 +44,12 @@
         <div uk-grid>
 
             <div class="uk-width-1-4" style="text-align: left;">
-                <img src="caminho/para/sua/imagem.jpg" alt="Descrição da imagem">
-
+                <img src="assets/imagens/logoquack.png" width="150px" alt="Descrição da imagem">
+                <br><br>
             </div>
 
             <div class="uk-width-3-4">
+            <br>
                 <nav uk-dropnav="align: right">
                     <ul class="uk-subnav uk-flex-right">
                         <li class="uk-active"><a href="#">

@@ -6,17 +6,22 @@ include 'header.php';
 
 <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="animation: push">
 
-    <ul class="uk-slideshow-items" style="height: 500px;">
+    <ul class="uk-slideshow-items" style="height: 550px;">
 
         <li>
-            <img src="assets/imagens/b2.jpg" alt="" uk-cover>
+            <img src="assets/imagens/banner-1.jpg" alt="" uk-cover>
         </li>
+        <!--
         <li>
             <iframe src="https://www.youtube-nocookie.com/embed/c2pz2mlSfXA?autoplay=1&amp;controls=0&amp;showinfo=0&amp;rel=0&amp;loop=1&amp;modestbranding=1&amp;wmode=transparent&amp;playsinline=1" width="1920" height="1080" allowfullscreen uk-cover></iframe>
         </li>
+            -->
+        <li>
+            <img src="assets/imagens/banner-2.jpg" alt="" uk-cover>
+        </li>
 
         <li>
-            <img src="assets/imagens/b2.jpg" alt="" uk-cover>
+            <img src="assets/imagens/banner-3.jpg" alt="" uk-cover>
         </li>
     </ul>
 
