@@ -152,6 +152,26 @@
     margin-right: 10px;
 }
 
+.campo-formulario{
+    border-radius: 10px !important;
+}
+
+.label-formulario{
+    margin-left: 10px !important;
+    color: black;
+}
+
+
+.texto-contato{
+    color: white;
+    text-align: center;
+}
+
+.subtitulo-contato{
+    color: white;
+    text-align: center;
+}
+
 @media (max-width: 900px){
 
 }

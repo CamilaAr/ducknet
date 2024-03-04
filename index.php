@@ -102,7 +102,7 @@ include 'header.php';
 
         <div uk-grid>
 
-            <div class="uk-width-1-2">
+            <div class="uk-width-1-2@m">
                 <br><br>
                 <h3 class="texto"> Montamos pra você um site <span class="texto-destaque"> ATRATIVO </span>,
                     com público alvo <span class="texto-destaque"> FOCADO </span>, que dará o
@@ -112,7 +112,7 @@ include 'header.php';
                 </h3>
             </div>
 
-            <div class="uk-width-1-2">
+            <div class="uk-width-1-2@m">
                 <img width="500" src="assets/imagens/homem.png" alt="">
             </div>
 
@@ -136,7 +136,7 @@ include 'header.php';
 
     </div>
 
-    <div class="uk-child-width-1-3" uk-grid>
+    <div class="uk-child-width-1-3@m" uk-grid>
         <div>
             <div class="uk-card uk-card-default uk-card-body card-planos-prata">
                 <h3 class=" titulo-card-plano">PRATA</h3>
@@ -494,7 +494,7 @@ include 'header.php';
 
     </div>
 
-</div>
+</div><br>
 
 <div style="background-color: #004250;">
     <div class="uk-container">
@@ -503,19 +503,84 @@ include 'header.php';
             <h1 class="titulo"> CONTATO </h1>
             <br>
         </div>
-        <div class="uk-child-width-1-2" uk-grid>
+        <div class="uk-child-width-1-2@m" uk-grid>
             <div>
                 <div class="cartao">
-                    <h5 class="texto-formulario">Preencha o formulário e Ganhe 10% de DESCONTO!</h5>
+                    <br>
+                    <h5 class="texto-formulario margem">Preencha o formulário e Ganhe <b> 10% de DESCONTO! </b></h5>
                     <div class="uk-margin margem">
-                        <label class="uk-form-label" for="form-stacked-text">Nome</label>
-                        <div class="uk-form-controls">
-                            <input class="uk-input" id="form-stacked-text" type="text" placeholder="Some text...">
+                        <label class="uk-form-label label-formulario" for="nome">Nome</label>
+                        <div class="">
+                            <input class="uk-input campo-formulario" id="nome" type="text" placeholder="Digite seu nome...">
                         </div>
+                    </div>
+
+                    <div class="uk-margin margem">
+                        <label class="uk-form-label label-formulario" for="email">E-mail</label>
+                        <div class="">
+                            <input class="uk-input campo-formulario" id="email" type="email" placeholder="Digite seu e-mail...">
+                        </div>
+                    </div>
+
+                    <div class="uk-margin margem">
+                        <label class="uk-form-label label-formulario" for="telefone">Telefone/Celular</label>
+                        <div class="">
+                            <input class="uk-input campo-formulario" id="telefone" type="tel" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+                        </div>
+                    </div>
+
+                    <div class="uk-margin margem">
+                        <label class="uk-form-label label-formulario" for="assunto">Assunto</label>
+                        <div class="">
+                            <input class="uk-input campo-formulario" id="assunto" type="text" placeholder="">
+                        </div>
+                    </div>
+
+                    <div class="uk-margin margem">
+                        <label class="uk-form-label label-formulario" for="mensagem">Mensagem</label>
+                        <div class="">
+                            <textarea class=" campo-formulario uk-textarea" rows="5" id="mensagem" type="text" placeholder=""></textarea>
+                        </div>
+                    </div>
+
+                    <div class="uk-margin margem">
+
+                        <div class="">
+                            <label><input type="checkbox"> <span style="color: black;"> Quero ser PRATA </span> </label><br>
+                            <label><input type="checkbox"> <span style="color: black;"> Quero ser OURO </span> </label><br>
+                            <label><input type="checkbox"> <span style="color: black;"> Quero ser PLATINUM </span> </label><br>
+                            <label><input type="checkbox"> <span style="color: black;"> Quero SUPORTE </span> </label><br>
+                        </div>
+                    </div>
+
+                    <div style="text-align: center;">
+                        <button class="uk-button botao-padrao">APROVEITAR AGORA</button>
                     </div>
 
                     <br><br>
                 </div>
+            </div>
+
+
+            <div>
+                <h3 class="subtitulo-contato"> <b> Utilize nossos meios de contato: </b></h3>
+
+                <p class="texto-contato">
+                    <b>E-MAIL: </b> <br><br>
+                    email@email.com
+                    <br><br>
+
+
+                    <b>TELEFONE/WHATSAPP: </b> <br><br>
+                    (16) 99999-9999
+                    <br><br>
+
+                    <b>REDES SOCIAIS: </b> <br><br>
+                    <img src="assets/imagens/facebook.png" width="50px;" alt="Descrição da imagem">
+                    <img src="assets/imagens/instagram.png" width="50px;" alt="Descrição da imagem">
+
+
+                </p>
             </div>
 
             <div>
@@ -524,6 +589,34 @@ include 'header.php';
         </div>
     </div>
 </div>
+
+
+<script>
+    document.getElementById('telefone').addEventListener('input', function(evt) {
+        let telefone = evt.target.value;
+        telefone = telefone.replace(/\D/g, ''); // Remove todos os caracteres que não são dígitos
+        if (telefone.length <= 11) { // Limite de 11 dígitos para um número de celular
+            if (telefone.length > 0) {
+                telefone = telefone.replace(/^(\d{2})(\d)/g, '($1) $2'); // Adiciona o formato (XX) X
+                if (telefone.length > 10) {
+                    telefone = telefone.replace(/(\d{5})(\d)/, '$1-$2'); // Adiciona o formato XXXXX-XXXX
+                } else {
+                    telefone = telefone.replace(/(\d{4})(\d)/, '$1-$2'); // Adiciona o formato XXXX-XXXX
+                }
+            }
+        } else {
+            telefone = telefone.slice(0, 11); // Limita a 11 dígitos
+            telefone = telefone.replace(/^(\d{2})(\d)/g, '($1) $2'); // Adiciona o formato (XX) X
+            if (telefone.length > 10) {
+                telefone = telefone.replace(/(\d{5})(\d)/, '$1-$2'); // Adiciona o formato XXXXX-XXXX
+            } else {
+                telefone = telefone.replace(/(\d{4})(\d)/, '$1-$2'); // Adiciona o formato XXXX-XXXX
+            }
+        }
+        evt.target.value = telefone;
+    });
+</script>
+
 
 </body>
 
