@@ -60,6 +60,8 @@
 
 }
 
+
+
 .texto{
     color:white;
 }
@@ -138,6 +140,16 @@
     font-weight: bold; 
     color: black; 
     text-align:center;
+}
+
+.texto-formulario {
+    text-align: center;
+    color: black;
+}
+
+.margem {
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 @media (max-width: 900px){

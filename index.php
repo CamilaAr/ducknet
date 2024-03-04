@@ -479,7 +479,7 @@ include 'header.php';
                         <p class="texto-card-planos"> Suporte</p>
                     </div>
                 </div>
-                
+
 
                 <div class="linha-planos"> </div>
                 <h4 class="texto-investir ">Investir por apenas: <br> <span class="texto-destaque"> R$ 249,99 </span> </h4>
@@ -494,6 +494,35 @@ include 'header.php';
 
     </div>
 
+</div>
+
+<div style="background-color: #004250;">
+    <div class="uk-container">
+        <div style="text-align: center;">
+            <br>
+            <h1 class="titulo"> CONTATO </h1>
+            <br>
+        </div>
+        <div class="uk-child-width-1-2" uk-grid>
+            <div>
+                <div class="cartao">
+                    <h5 class="texto-formulario">Preencha o formulário e Ganhe 10% de DESCONTO!</h5>
+                    <div class="uk-margin margem">
+                        <label class="uk-form-label" for="form-stacked-text">Nome</label>
+                        <div class="uk-form-controls">
+                            <input class="uk-input" id="form-stacked-text" type="text" placeholder="Some text...">
+                        </div>
+                    </div>
+
+                    <br><br>
+                </div>
+            </div>
+
+            <div>
+
+            </div>
+        </div>
+    </div>
 </div>
 
 </body>
