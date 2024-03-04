@@ -32,6 +32,8 @@
     background-color: #FF7B16 !important;
     border-radius: 20px;
     font-weight: bolder;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .titulo-card{
@@ -173,6 +175,10 @@
 }
 
 @media (max-width: 900px){
+
+    .mobile-centro{
+        text-align: center;
+    }
 
 }
 

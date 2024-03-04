@@ -30,7 +30,7 @@
 
                     <div class="uk-width-1-2" style="text-align: right;">
                         <img src="assets/imagens/facebook.png" width="30px;" alt="Descrição da imagem">
-                        <img src="assets/imagens/instagram.png" width="30px;"  alt="Descrição da imagem">
+                        <img src="assets/imagens/instagram.png" width="30px;" alt="Descrição da imagem">
                     </div>
 
                 </div>
@@ -41,7 +41,7 @@
     <div class="uk-container">
         <br>
 
-        <div uk-grid>
+        <div class="uk-hidden-touch" uk-grid>
 
             <div class="uk-width-1-4" style="text-align: left;">
                 <img src="assets/imagens/logoquack.png" width="150px" alt="Descrição da imagem">
@@ -49,7 +49,7 @@
             </div>
 
             <div class="uk-width-3-4">
-            <br>
+                <br>
                 <nav uk-dropnav="align: right">
                     <ul class="uk-subnav uk-flex-right">
                         <li class="uk-active"><a href="#">
@@ -83,4 +83,47 @@
 
 
         </div>
+
+        <div class="uk-hidden-notouch">
+            <div class="uk-child-width-1-2" uk-grid>
+
+                <div style="margin-top: 10px;">
+                    
+
+
+                    <a href="#offcanvas-usage" uk-toggle><span style="color: black;" uk-icon="icon: menu; ratio: 2"></span></a>
+
+                    <div style="background-color: white !important;" id="offcanvas-usage" uk-offcanvas>
+                        <div style="background-color: white !important;" class="uk-offcanvas-bar">
+
+                            <button style="color: black;" class="uk-offcanvas-close" type="button" uk-close></button>
+
+                            <div style="color: black;">
+                                <h3  style="color: black;"><b>MENU</b></h3>
+                                <a style="color: black;" href="#">HOME </a> <br><br>
+                                <a style="color: black;" href="#">PLANOS </a><br><br>
+                                <a style="color: black;" href="#">SOBRE NÓS </a><br><br>
+                                <a style="color: black;" href="#">CONTATO </a><br><br>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <div>
+
+                    <div style="text-align: right;">
+                        <img src="assets/imagens/logoquack.png" width="130px" alt="Descrição da imagem">
+                    </div>
+                </div>
+
+
+            </div>
+
+            <br>
+
+        </div>
+
+
     </div>

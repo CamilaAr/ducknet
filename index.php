@@ -35,7 +35,7 @@ include 'header.php';
     <div style="text-align: center;" class="uk-child-width-1-3@m uk-grid-match" uk-grid>
         <div class="">
             <div class="cartao uk-card uk-card-default uk-card-body ">
-                <img width="80" src="assets/imagens/icone.png" alt="">
+                <img width="80" src="assets/imagens/resultados.png" alt="">
                 <h3 class="uk-card-title titulo-card">Resultados Imediatos</h3>
                 <p class="texto-card">Aumento de clientes nas pimeiras semanas</p>
             </div>
@@ -43,41 +43,41 @@ include 'header.php';
 
         <div class="">
             <div class="cartao uk-card uk-card-default uk-card-body ">
-                <img width="80" src="assets/imagens/icone.png" alt="">
-                <h3 class="uk-card-title titulo-card">Resultados Imediatos</h3>
-                <p class="texto-card">Aumento de clientes nas pimeiras semanas</p>
+                <img width="80" src="assets/imagens/cliente.png" alt="">
+                <h3 class="uk-card-title titulo-card">Tráfego Pago</h3>
+                <p class="texto-card">Propagandas direcionadas para o seu público alvo</p>
             </div>
         </div>
 
         <div class="">
             <div class="cartao uk-card uk-card-default uk-card-body ">
-                <img width="80" src="assets/imagens/icone.png" alt="">
-                <h3 class="uk-card-title titulo-card">Resultados Imediatos</h3>
-                <p class="texto-card">Aumento de clientes nas pimeiras semanas</p>
+                <img width="80" src="assets/imagens/Responsividade.png" alt="">
+                <h3 class="uk-card-title titulo-card">Responsividade</h3>
+                <p class="texto-card">Acesse seu site por qualquer dispositivo</p>
             </div>
         </div>
 
         <div class="">
             <div class="cartao uk-card uk-card-default uk-card-body ">
-                <img width="80" src="assets/imagens/icone.png" alt="">
-                <h3 class="uk-card-title titulo-card">Resultados Imediatos</h3>
-                <p class="texto-card">Aumento de clientes nas pimeiras semanas</p>
+                <img width="80" src="assets/imagens/suporte.png" alt="">
+                <h3 class="uk-card-title titulo-card">Suporte/manutenção</h3>
+                <p class="texto-card">Não esquente a cabeça com problemas no seu site</p>
             </div>
         </div>
 
         <div class="">
             <div class="cartao uk-card uk-card-default uk-card-body ">
-                <img width="80" src="assets/imagens/icone.png" alt="">
-                <h3 class="uk-card-title titulo-card">Resultados Imediatos</h3>
-                <p class="texto-card">Aumento de clientes nas pimeiras semanas</p>
+                <img width="80" src="assets/imagens/marketing.png" alt="">
+                <h3 class="uk-card-title titulo-card">Lista E-mail Marketing</h3>
+                <p class="texto-card">Receba uma lista dos clientes interessados no seu produto</p>
             </div>
         </div>
 
         <div class="">
             <div class="cartao uk-card uk-card-default uk-card-body ">
-                <img width="80" src="assets/imagens/icone.png" alt="">
-                <h3 class="uk-card-title titulo-card">Resultados Imediatos</h3>
-                <p class="texto-card">Aumento de clientes nas pimeiras semanas</p>
+                <img width="80" src="assets/imagens/layout.png" alt="">
+                <h3 class="uk-card-title titulo-card">Layout Dinâmico</h3>
+                <p class="texto-card">Site moderno, de fácil navegação e informações relevantes</p>
             </div>
         </div>
 
@@ -618,6 +618,9 @@ include 'header.php';
 </script>
 
 
-</body>
+<?php
 
-</html>
+include 'footer.php';
+
+?>
+
