@@ -21,16 +21,16 @@
 
 
             <div>
-                
+
             </div>
 
 
             <div style="color: white;" class="mobile-centro">
                 <h3 style="color: white;"><b>MENU</b></h3>
-                <a style="color: white;" href="#" >HOME </a> <br><br>
-                <a style="color: white;" href="#" >PLANOS </a><br><br>
-                <a style="color: white;" href="#" >SOBRE NÓS </a><br><br>
-                <a style="color: white;" href="#" >CONTATO </a><br><br>
+                <a style="color: white;" href="#">HOME </a> <br><br>
+                <a style="color: white;" href="#">PLANOS </a><br><br>
+                <a style="color: white;" href="#">SOBRE NÓS </a><br><br>
+                <a style="color: white;" href="#">CONTATO </a><br><br>
             </div>
 
 
@@ -39,10 +39,18 @@
         <br>
         <div style="text-align: center;">
             <p>
-            2024 - Todos os direitos reservados
+                2024 - Todos os direitos reservados
             </p>
         </div>
     </div>
+</div>
+
+<div class="uk-position-fixed uk-position-bottom-right">
+    <div class="uk-container">
+        <img src="assets/imagens/whatsapp.png" width="80" alt="Vantagens" class="imagem-vantagem">
+        
+    </div>
+    <br>
 </div>
 
 </body>
