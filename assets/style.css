@@ -19,7 +19,8 @@
 
 
 .menu{
-
+    border-bottom: 2px solid #FF7B16; /* Adiciona uma linha laranja na borda inferior */
+    padding-bottom: 10px; /* Ajusta o espaçamento entre o conteúdo e a linha */
 }
 
 .itemMenu {

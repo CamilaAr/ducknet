@@ -30,9 +30,10 @@
             <div style="color: white;" class="mobile-centro">
                 <h3 style="color: white;"><b>MENU</b></h3>
                 <a style="color: white;" href="index.php">HOME </a> <br><br>
-                <a style="color: white;" href="#">PLANOS </a><br><br>
-                <a style="color: white;" href="#">SOBRE NÓS </a><br><br>
-                <a style="color: white;" href="#">CONTATO </a><br><br>
+                <a style="color: white;" href="planos.php">PLANOS </a><br><br>
+                <a style="color: white;" href="sobrenos.php">SOBRE NÓS </a><br><br>
+                <a style="color: white;" href="contato.php">CONTATO </a><br><br>
+                <a style="color: white;" href="faq.php">FAQ </a><br><br>
             </div>
 
 

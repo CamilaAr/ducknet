@@ -38,10 +38,11 @@
 
         </div>
     </header>
-    <div class="uk-container">
+<div class="menu">
+    <div class="uk-container ">
         <br>
 
-        <div class="uk-hidden-touch" uk-grid>
+        <div class="uk-hidden-touch " uk-grid>
 
             <div class="uk-width-1-4" style="text-align: left;">
                 <a href="index.php">
@@ -54,7 +55,7 @@
                 <br>
                 <nav uk-dropnav="align: right">
                     <ul class="uk-subnav uk-flex-right">
-                        <li class="uk-active"><a href="#">
+                        <li class="uk-active"><a href="planos.php">
                                 <h1 class="itemMenu"> PLANOS </h1>
                             </a></li>
 
@@ -70,13 +71,13 @@
                             </ul>
                         </div>
                     </li> -->
-                        <li><a href="#">
+                        <li><a href="sobrenos.php">
                                 <h1 class="itemMenu"> SOBRE NÓS </h1>
                             </a></li>
-                        <li><a href="#">
+                        <li><a href="contato.php">
                                 <h1 class="itemMenu"> CONTATO </h1>
                             </a></li>
-                        <li><a href="#">
+                        <li><a href="faq.php">
                                 <h1 class="itemMenu"> FAQ </h1>
                             </a></li>
                     </ul>
@@ -103,9 +104,10 @@
                             <div style="color: black;">
                                 <h3 style="color: black;"><b>MENU</b></h3>
                                 <a style="color: black;" href="index.php">HOME </a> <br><br>
-                                <a style="color: black;" href="#">PLANOS </a><br><br>
-                                <a style="color: black;" href="#">SOBRE NÓS </a><br><br>
-                                <a style="color: black;" href="#">CONTATO </a><br><br>
+                                <a style="color: black;" href="planos.php">PLANOS </a><br><br>
+                                <a style="color: black;" href="sobrenos.php">SOBRE NÓS </a><br><br>
+                                <a style="color: black;" href="contato.php">CONTATO </a><br><br>
+                                <a style="color: black;" href="faq.php">FAQ </a><br><br>
                             </div>
 
                         </div>
@@ -131,3 +133,4 @@
 
 
     </div>
+</div>
