@@ -146,7 +146,7 @@ include 'header.php';
                     </div>
                     <div style="margin-top: 20px;">
 
-                        <p class="texto-card-planos"> Landing page simples (1 pagina)</p>
+                        <p class="texto-card-planos"> Landing Page (1 pagina)</p>
                     </div>
                 </div>
                 <div class="uk-flex uk-flex-middle">
@@ -160,7 +160,7 @@ include 'header.php';
                 </div>
                 <div class="uk-flex uk-flex-middle">
                     <div style="padding-right: 5px;">
-                        <img src="assets/imagens/check.png" width="20" alt="Vantagens" class="imagem-vantagem">
+                        <img src="assets/imagens/cancelar.png" width="20" alt="Vantagens" class="imagem-vantagem">
                     </div>
                     <div style="margin-top: 20px;">
 
@@ -169,7 +169,7 @@ include 'header.php';
                 </div>
                 <div class="uk-flex uk-flex-middle">
                     <div style="padding-right: 5px;">
-                        <img src="assets/imagens/check.png" width="20" alt="Vantagens" class="imagem-vantagem">
+                        <img src="assets/imagens/cancelar.png" width="20" alt="Vantagens" class="imagem-vantagem">
                     </div>
                     <div style="margin-top: 20px;">
 
@@ -178,7 +178,7 @@ include 'header.php';
                 </div>
                 <div class="uk-flex uk-flex-middle">
                     <div style="padding-right: 5px;">
-                        <img src="assets/imagens/check.png" width="20" alt="Vantagens" class="imagem-vantagem">
+                        <img src="assets/imagens/cancelar.png" width="20" alt="Vantagens" class="imagem-vantagem">
                     </div>
                     <div style="margin-top: 20px;">
 
@@ -187,7 +187,7 @@ include 'header.php';
                 </div>
                 <div class="uk-flex uk-flex-middle">
                     <div style="padding-right: 5px;">
-                        <img src="assets/imagens/check.png" width="20" alt="Vantagens" class="imagem-vantagem">
+                        <img src="assets/imagens/cancelar.png" width="20" alt="Vantagens" class="imagem-vantagem">
                     </div>
                     <div style="margin-top: 20px;">
 
@@ -196,7 +196,7 @@ include 'header.php';
                 </div>
                 <div class="uk-flex uk-flex-middle">
                     <div style="padding-right: 5px;">
-                        <img src="assets/imagens/check.png" width="20" alt="Vantagens" class="imagem-vantagem">
+                        <img src="assets/imagens/cancelar.png" width="20" alt="Vantagens" class="imagem-vantagem">
                     </div>
                     <div style="margin-top: 20px;">
 
@@ -205,7 +205,7 @@ include 'header.php';
                 </div>
                 <div class="uk-flex uk-flex-middle">
                     <div style="padding-right: 5px;">
-                        <img src="assets/imagens/check.png" width="20" alt="Vantagens" class="imagem-vantagem">
+                        <img src="assets/imagens/cancelar.png" width="20" alt="Vantagens" class="imagem-vantagem">
                     </div>
                     <div style="margin-top: 20px;">
 
@@ -214,13 +214,14 @@ include 'header.php';
                 </div>
                 <div class="uk-flex uk-flex-middle">
                     <div style="padding-right: 5px;">
-                        <img src="assets/imagens/check.png" width="20" alt="Vantagens" class="imagem-vantagem">
+                        <img src="assets/imagens/cancelar.png" width="20" alt="Vantagens" class="imagem-vantagem">
                     </div>
                     <div style="margin-top: 20px;">
 
                         <p class="texto-card-planos"> Desconto em alterações complexas</p>
                     </div>
-                </div>
+                </div><BR><BR>
+                
 
                 <div class="linha-planos"> </div>
                 <h4 class="texto-investir ">Investir por apenas: <br> <span class="texto-destaque"> R$ 999,99 </span> </h4>
@@ -244,7 +245,7 @@ include 'header.php';
                     </div>
                     <div style="margin-top: 20px;">
 
-                        <p class="texto-card-planos"> Landing page simples (1 pagina)</p>
+                        <p class="texto-card-planos"> Site institucional (3 paginas)</p>
                     </div>
                 </div>
                 <div class="uk-flex uk-flex-middle">
@@ -271,7 +272,7 @@ include 'header.php';
                     </div>
                     <div style="margin-top: 20px;">
 
-                        <p class="texto-card-planos"> Suporte</p>
+                        <p class="texto-card-planos"> 3 meses de suporte</p>
                     </div>
                 </div>
                 <div class="uk-flex uk-flex-middle">
@@ -280,12 +281,12 @@ include 'header.php';
                     </div>
                     <div style="margin-top: 20px;">
 
-                        <p class="texto-card-planos"> Alterações de imagens e texto</p>
+                        <p class="texto-card-planos"> 3 meses de alterações de imagens e texto</p>
                     </div>
                 </div>
                 <div class="uk-flex uk-flex-middle">
                     <div style="padding-right: 5px;">
-                        <img src="assets/imagens/check.png" width="20" alt="Vantagens" class="imagem-vantagem">
+                        <img src="assets/imagens/cancelar.png" width="20" alt="Vantagens" class="imagem-vantagem">
                     </div>
                     <div style="margin-top: 20px;">
 
@@ -294,7 +295,7 @@ include 'header.php';
                 </div>
                 <div class="uk-flex uk-flex-middle">
                     <div style="padding-right: 5px;">
-                        <img src="assets/imagens/check.png" width="20" alt="Vantagens" class="imagem-vantagem">
+                        <img src="assets/imagens/cancelar.png" width="20" alt="Vantagens" class="imagem-vantagem">
                     </div>
                     <div style="margin-top: 20px;">
 
@@ -303,7 +304,7 @@ include 'header.php';
                 </div>
                 <div class="uk-flex uk-flex-middle">
                     <div style="padding-right: 5px;">
-                        <img src="assets/imagens/check.png" width="20" alt="Vantagens" class="imagem-vantagem">
+                        <img src="assets/imagens/cancelar.png" width="20" alt="Vantagens" class="imagem-vantagem">
                     </div>
                     <div style="margin-top: 20px;">
 
@@ -312,13 +313,14 @@ include 'header.php';
                 </div>
                 <div class="uk-flex uk-flex-middle">
                     <div style="padding-right: 5px;">
-                        <img src="assets/imagens/check.png" width="20" alt="Vantagens" class="imagem-vantagem">
+                        <img src="assets/imagens/cancelar.png" width="20" alt="Vantagens" class="imagem-vantagem">
                     </div>
                     <div style="margin-top: 20px;">
 
                         <p class="texto-card-planos"> Desconto em alterações complexas</p>
                     </div>
                 </div>
+                <BR>
 
                 <div class="linha-planos"> </div>
                 <h4 class="texto-investir ">Investir por apenas: <br> <span class="texto-destaque"> R$ 1.499,99 </span> </h4>
@@ -327,7 +329,7 @@ include 'header.php';
 
             <div style="text-align: center;">
                 <br>
-                <button class="uk-button botao-fundo-escuro">QUERO SER PRATA</button>
+                <button class="uk-button botao-fundo-escuro">QUERO SER OURO</button>
             </div>
         </div>
 
@@ -342,7 +344,7 @@ include 'header.php';
                     </div>
                     <div style="margin-top: 20px;">
 
-                        <p class="texto-card-planos"> Landing page simples (1 pagina)</p>
+                        <p class="texto-card-planos">Site institucional (5 páginas)</p>
                     </div>
                 </div>
                 <div class="uk-flex uk-flex-middle">
@@ -369,7 +371,7 @@ include 'header.php';
                     </div>
                     <div style="margin-top: 20px;">
 
-                        <p class="texto-card-planos"> Suporte</p>
+                        <p class="texto-card-planos"> 6 meses de suporte</p>
                     </div>
                 </div>
                 <div class="uk-flex uk-flex-middle">
@@ -378,7 +380,7 @@ include 'header.php';
                     </div>
                     <div style="margin-top: 20px;">
 
-                        <p class="texto-card-planos"> Alterações de imagens e texto</p>
+                        <p class="texto-card-planos"> 6 meses de alterações de imagens e texto</p>
                     </div>
                 </div>
                 <div class="uk-flex uk-flex-middle">
@@ -387,7 +389,7 @@ include 'header.php';
                     </div>
                     <div style="margin-top: 20px;">
 
-                        <p class="texto-card-planos"> Tráfego pago</p>
+                        <p class="texto-card-planos"> 6 meses de tráfego pago</p>
                     </div>
                 </div>
                 <div class="uk-flex uk-flex-middle">
@@ -396,7 +398,7 @@ include 'header.php';
                     </div>
                     <div style="margin-top: 20px;">
 
-                        <p class="texto-card-planos"> Manutenção</p>
+                        <p class="texto-card-planos"> 6 meses de manutenção</p>
                     </div>
                 </div>
                 <div class="uk-flex uk-flex-middle">
@@ -405,7 +407,7 @@ include 'header.php';
                     </div>
                     <div style="margin-top: 20px;">
 
-                        <p class="texto-card-planos"> Banner mensal</p>
+                        <p class="texto-card-planos"> 6 meses de banner mensal</p>
                     </div>
                 </div>
                 <div class="uk-flex uk-flex-middle">
@@ -414,7 +416,7 @@ include 'header.php';
                     </div>
                     <div style="margin-top: 20px;">
 
-                        <p class="texto-card-planos"> Desconto em alterações complexas</p>
+                        <p class="texto-card-planos"> 6 meses de desconto em alterações complexas</p>
                     </div>
                 </div>
 
@@ -425,7 +427,7 @@ include 'header.php';
 
             <div style="text-align: center;">
                 <br>
-                <button class="uk-button botao-fundo-escuro">QUERO SER PRATA</button>
+                <button class="uk-button botao-fundo-escuro">QUERO SER PLATINUM</button>
             </div>
 
         </div>
@@ -488,7 +490,7 @@ include 'header.php';
 
             <div style="text-align: center;">
                 <br>
-                <button class="uk-button botao-fundo-escuro">QUERO SER PRATA</button>
+                <button class="uk-button botao-fundo-escuro">QUERO SUPORTE</button>
             </div>
         </div>
 
