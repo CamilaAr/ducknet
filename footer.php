@@ -5,7 +5,9 @@
 
             <div>
                 <div style="text-align: center;">
-                    <img src="assets/imagens/logo-quadrada-branca.png" width="150" alt="Vantagens" class="imagem-vantagem">
+                    <a href="index.php">
+                        <img src="assets/imagens/logo-quadrada-branca.png" width="150" alt="Vantagens" class="imagem-vantagem">
+                    </a>
                 </div>
 
                 <div>
@@ -27,7 +29,7 @@
 
             <div style="color: white;" class="mobile-centro">
                 <h3 style="color: white;"><b>MENU</b></h3>
-                <a style="color: white;" href="#">HOME </a> <br><br>
+                <a style="color: white;" href="index.php">HOME </a> <br><br>
                 <a style="color: white;" href="#">PLANOS </a><br><br>
                 <a style="color: white;" href="#">SOBRE NÓS </a><br><br>
                 <a style="color: white;" href="#">CONTATO </a><br><br>
@@ -48,7 +50,7 @@
 <div class="uk-position-fixed uk-position-bottom-right">
     <div class="uk-container">
         <img src="assets/imagens/whatsapp.png" width="80" alt="Vantagens" class="imagem-vantagem">
-        
+
     </div>
     <br>
 </div>

@@ -44,7 +44,9 @@
         <div class="uk-hidden-touch" uk-grid>
 
             <div class="uk-width-1-4" style="text-align: left;">
-                <img src="assets/imagens/logoquack.png" width="150px" alt="Descrição da imagem">
+                <a href="index.php">
+                    <img src="assets/imagens/logoquack.png" width="150px" alt="Descrição da imagem">
+                </a>
                 <br><br>
             </div>
 
@@ -88,7 +90,7 @@
             <div class="uk-child-width-1-2" uk-grid>
 
                 <div style="margin-top: 10px;">
-                    
+
 
 
                     <a href="#offcanvas-usage" uk-toggle><span style="color: black;" uk-icon="icon: menu; ratio: 2"></span></a>
@@ -99,8 +101,8 @@
                             <button style="color: black;" class="uk-offcanvas-close" type="button" uk-close></button>
 
                             <div style="color: black;">
-                                <h3  style="color: black;"><b>MENU</b></h3>
-                                <a style="color: black;" href="#">HOME </a> <br><br>
+                                <h3 style="color: black;"><b>MENU</b></h3>
+                                <a style="color: black;" href="index.php">HOME </a> <br><br>
                                 <a style="color: black;" href="#">PLANOS </a><br><br>
                                 <a style="color: black;" href="#">SOBRE NÓS </a><br><br>
                                 <a style="color: black;" href="#">CONTATO </a><br><br>
@@ -114,7 +116,9 @@
                 <div>
 
                     <div style="text-align: right;">
-                        <img src="assets/imagens/logoquack.png" width="130px" alt="Descrição da imagem">
+                        <a href="index.php">
+                            <img src="assets/imagens/logoquack.png" width="130px" alt="Descrição da imagem">
+                        </a>
                     </div>
                 </div>
 

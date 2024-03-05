@@ -4,7 +4,7 @@ include 'header.php';
 
 ?>
 
-<div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="animation: push">
+<div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="animation: fade; autoplay: true; autoplay-interval: 4000; pause-on-hover: true;">
 
     <ul class="uk-slideshow-items" style="height: 550px;">
 
@@ -25,15 +25,16 @@ include 'header.php';
         </li>
     </ul>
 
-    <a class="uk-position-center-left uk-position-small uk-hidden-hover" href uk-slidenav-previous uk-slideshow-item="previous"></a>
-    <a class="uk-position-center-right uk-position-small uk-hidden-hover" href uk-slidenav-next uk-slideshow-item="next"></a>
-
+    <a style="color: black" class="uk-position-center-left uk-position-small uk-hidden-hover" href uk-slidenav-previous uk-slideshow-item="previous"></a>
+    <a style="color: black" class="uk-position-center-right uk-position-small uk-hidden-hover" href uk-slidenav-next uk-slideshow-item="next"></a>
+                
 </div>
+
 
 <div class="uk-container">
     <br>
     <div style="text-align: center;" class="uk-child-width-1-3@m uk-grid-match" uk-grid>
-        <div class="">
+        <div class="" uk-scrollspy="cls: uk-animation-slide-left; repeat: true">
             <div class="cartao uk-card uk-card-default uk-card-body ">
                 <img width="80" src="assets/imagens/resultados.png" alt="">
                 <h3 class="uk-card-title titulo-card">Resultados Imediatos</h3>
@@ -41,23 +42,23 @@ include 'header.php';
             </div>
         </div>
 
-        <div class="">
+        <div class="" uk-scrollspy="cls: uk-animation-slide-top; repeat: true">
             <div class="cartao uk-card uk-card-default uk-card-body ">
-                <img width="80" src="assets/imagens/cliente.png" alt="">
+                <img width="80" src="assets/imagens/cliente.png"  alt="">
                 <h3 class="uk-card-title titulo-card">Tráfego Pago</h3>
                 <p class="texto-card">Propagandas direcionadas para o seu público alvo</p>
             </div>
         </div>
 
-        <div class="">
-            <div class="cartao uk-card uk-card-default uk-card-body ">
+        <div class="" uk-scrollspy="cls: uk-animation-slide-right; repeat: true">
+            <div class="cartao uk-card uk-card-default uk-card-body " >
                 <img width="80" src="assets/imagens/Responsividade.png" alt="">
                 <h3 class="uk-card-title titulo-card">Responsividade</h3>
                 <p class="texto-card">Acesse seu site por qualquer dispositivo</p>
             </div>
         </div>
 
-        <div class="">
+        <div class="" uk-scrollspy="cls: uk-animation-slide-left; repeat: true">
             <div class="cartao uk-card uk-card-default uk-card-body ">
                 <img width="80" src="assets/imagens/suporte.png" alt="">
                 <h3 class="uk-card-title titulo-card">Suporte/manutenção</h3>
@@ -65,7 +66,7 @@ include 'header.php';
             </div>
         </div>
 
-        <div class="">
+        <div class="" uk-scrollspy="cls: uk-animation-slide-top; repeat: true">
             <div class="cartao uk-card uk-card-default uk-card-body ">
                 <img width="80" src="assets/imagens/marketing.png" alt="">
                 <h3 class="uk-card-title titulo-card">Lista E-mail Marketing</h3>
@@ -73,7 +74,7 @@ include 'header.php';
             </div>
         </div>
 
-        <div class="">
+        <div class="" uk-scrollspy="cls: uk-animation-slide-right; repeat: true">
             <div class="cartao uk-card uk-card-default uk-card-body ">
                 <img width="80" src="assets/imagens/layout.png" alt="">
                 <h3 class="uk-card-title titulo-card">Layout Dinâmico</h3>
@@ -83,7 +84,7 @@ include 'header.php';
 
     </div>
     <br>
-    <div style="text-align: center;">
+    <div style="text-align: center;" uk-scrollspy="cls: uk-animation-scale-up;  repeat: true">
         <button class="uk-button botao-padrao">APROVEITAR AGORA</button>
     </div>
 
@@ -97,12 +98,12 @@ include 'header.php';
 
         <div>
             <br>
-            <h1 class="titulo"> POUPE TEMPO E GANHE DINHEIRO </h1>
+            <h1 class="titulo" uk-scrollspy="cls: uk-animation-slide-top; repeat: true" > POUPE TEMPO E GANHE DINHEIRO </h1>
         </div>
 
         <div uk-grid>
 
-            <div class="uk-width-1-2@m">
+            <div class="uk-width-1-2@m" uk-scrollspy="cls: uk-animation-slide-left; repeat: true">
                 <br><br>
                 <h3 class="texto"> Montamos pra você um site <span class="texto-destaque"> ATRATIVO </span>,
                     com público alvo <span class="texto-destaque"> FOCADO </span>, que dará o
@@ -112,13 +113,13 @@ include 'header.php';
                 </h3>
             </div>
 
-            <div class="uk-width-1-2@m">
+            <div class="uk-width-1-2@m" uk-scrollspy="cls: uk-animation-slide-right; repeat: true">
                 <img width="500" src="assets/imagens/homem.png" alt="">
             </div>
 
         </div>
 
-        <div style="text-align: center;">
+        <div style="text-align: center;" uk-scrollspy="cls: uk-animation-scale-up; repeat: true">
             <button class="uk-button botao-fundo-escuro">ADQUIRIR AGORA</button>
         </div>
 
@@ -132,12 +133,12 @@ include 'header.php';
 <div class="uk-container">
     <div style="text-align:center">
         <br>
-        <h1 class="titulo"> NOSSOS PLANOS </h1>
+        <h1 class="titulo" uk-scrollspy="cls: uk-animation-slide-top; repeat: true"> NOSSOS PLANOS </h1>
 
     </div>
 
-    <div class="uk-child-width-1-3@m" uk-grid>
-        <div>
+    <div class="uk-child-width-1-3@m"  uk-grid>
+        <div uk-scrollspy="cls: uk-animation-slide-left; repeat: true" >
             <div class="uk-card uk-card-default uk-card-body card-planos-prata">
                 <h3 class=" titulo-card-plano">PRATA</h3>
                 <div class="uk-flex uk-flex-middle">
@@ -228,7 +229,7 @@ include 'header.php';
                 <div class="linha-planos"> </div>
             </div>
 
-            <div style="text-align: center;">
+            <div style="text-align: center;" uk-scrollspy="cls: uk-animation-shake; repeat: true">
                 <br>
                 <button class="uk-button botao-fundo-escuro">QUERO SER PRATA</button>
             </div>
@@ -236,7 +237,7 @@ include 'header.php';
 
 
 
-        <div>
+        <div uk-scrollspy="cls: uk-animation-slide-top; repeat: true">
             <div class="uk-card uk-card-default uk-card-body card-planos-ouro">
                 <h3 class="titulo-card-plano">OURO</h3>
                 <div class="uk-flex uk-flex-middle">
@@ -327,7 +328,7 @@ include 'header.php';
                 <div class="linha-planos"> </div>
             </div>
 
-            <div style="text-align: center;">
+            <div style="text-align: center;" uk-scrollspy="cls: uk-animation-shake; repeat: true">
                 <br>
                 <button class="uk-button botao-fundo-escuro">QUERO SER OURO</button>
             </div>
@@ -335,7 +336,7 @@ include 'header.php';
 
 
 
-        <div>
+        <div uk-scrollspy="cls: uk-animation-slide-right; repeat: true">
             <div class="uk-card uk-card-default uk-card-body card-planos-platinum">
                 <h3 class=" titulo-card-plano">PLATINUM</h3>
                 <div class="uk-flex uk-flex-middle">
@@ -425,7 +426,7 @@ include 'header.php';
                 <div class="linha-planos"> </div>
             </div>
 
-            <div style="text-align: center;">
+            <div style="text-align: center;" uk-scrollspy="cls: uk-animation-shake; repeat: true">
                 <br>
                 <button class="uk-button botao-fundo-escuro">QUERO SER PLATINUM</button>
             </div>
@@ -438,7 +439,7 @@ include 'header.php';
 
 
     <br>
-    <div class="uk-flex uk-flex-center">
+    <div class="uk-flex uk-flex-center" uk-scrollspy="cls: uk-animation-slide-bottom; repeat: true">
 
 
 
@@ -488,7 +489,7 @@ include 'header.php';
                 <div class="linha-planos"> </div>
             </div>
 
-            <div style="text-align: center;">
+            <div style="text-align: center;" uk-scrollspy="cls: uk-animation-shake; repeat: true">
                 <br>
                 <button class="uk-button botao-fundo-escuro">QUERO SUPORTE</button>
             </div>
@@ -502,11 +503,11 @@ include 'header.php';
     <div class="uk-container">
         <div style="text-align: center;">
             <br>
-            <h1 class="titulo"> CONTATO </h1>
+            <h1 class="titulo" uk-scrollspy="cls: uk-animation-slide-top; repeat: true"> CONTATO </h1>
             <br>
         </div>
         <div class="uk-child-width-1-2@m" uk-grid>
-            <div>
+            <div uk-scrollspy="cls: uk-animation-slide-left; repeat: true">
                 <div class="cartao">
                     <br>
                     <h5 class="texto-formulario margem">Preencha o formulário e Ganhe <b> 10% de DESCONTO! </b></h5>
@@ -555,7 +556,7 @@ include 'header.php';
                         </div>
                     </div>
 
-                    <div style="text-align: center;">
+                    <div style="text-align: center;" uk-scrollspy="cls: uk-animation-shake; repeat: true">
                         <button class="uk-button botao-padrao">APROVEITAR AGORA</button>
                     </div>
 
@@ -564,7 +565,7 @@ include 'header.php';
             </div>
 
 
-            <div>
+            <div uk-scrollspy="cls: uk-animation-slide-right; repeat: true">
                 <h3 class="subtitulo-contato"> <b> Utilize nossos meios de contato: </b></h3>
 
                 <p class="texto-contato">
