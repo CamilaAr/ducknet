@@ -98,6 +98,44 @@ include 'header.php';
     </div>
 </div>
 
+<?php
+
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
+use PHPMailer\PHPMailer\SMTP;
+
+require 'PHPMailer/PHPMailer/src/Exception.php';
+require 'PHPMailer/PHPMailer/src/PHPMailer.php';
+require 'PHPMailer/PHPMailer/src/SMTP.php';
+
+//Create an instance; passing `true` enables exceptions
+$mail = new PHPMailer(true);
+
+
+    date_default_timezone_set('Etc/UTC');
+
+    $mail = new PHPMailer;
+    $mail->isSMTP();
+    $mail->Host = 'smtp.live.com';
+    $mail->Port = 587;
+    $mail->SMTPSecure = 'tls';
+    $mail->SMTPAuth = true;
+    $mail->Username = "email@hotmail.com";
+    $mail->Password = "senha";
+    $mail->setFrom('camila.araujo.rp@hotmail.com', 'Nome');
+    $mail->addReplyTo('camila.araujo.rp@hotmail.com', 'Reply');
+    $mail->addAddress('96camilaaraujo@gmail.com', 'camila');
+    $mail->Subject = 'Titulo do Texto';
+    $mail->Body = 'Mensagem de texto';
+
+    if (!$mail->send()) {
+        echo "Mailer Error: " . $mail->ErrorInfo;
+     } else {
+        echo "Message sent!";
+     }
+
+?>
+
 
 <?php
 
