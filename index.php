@@ -42,7 +42,7 @@ include 'header.php';
             </div>
         </div>
 
-        <div class="" uk-scrollspy="cls: uk-animation-slide-top; repeat: true">
+        <div class="" uk-scrollspy="cls: uk-animation-slide-top; repeat: true; delay: 500">
             <div class="cartao uk-card uk-card-default uk-card-body ">
                 <img width="80" src="assets/imagens/cliente.png"  alt="">
                 <h3 class="uk-card-title titulo-card">Tráfego Pago</h3>
@@ -50,7 +50,7 @@ include 'header.php';
             </div>
         </div>
 
-        <div class="" uk-scrollspy="cls: uk-animation-slide-right; repeat: true">
+        <div class="" uk-scrollspy="cls: uk-animation-slide-right; repeat: true; delay: 1000">
             <div class="cartao uk-card uk-card-default uk-card-body " >
                 <img width="80" src="assets/imagens/Responsividade.png" alt="">
                 <h3 class="uk-card-title titulo-card">Responsividade</h3>
@@ -66,7 +66,7 @@ include 'header.php';
             </div>
         </div>
 
-        <div class="" uk-scrollspy="cls: uk-animation-slide-top; repeat: true">
+        <div class="" uk-scrollspy="cls: uk-animation-slide-top; repeat: true; delay: 500">
             <div class="cartao uk-card uk-card-default uk-card-body ">
                 <img width="80" src="assets/imagens/marketing.png" alt="">
                 <h3 class="uk-card-title titulo-card">Lista E-mail Marketing</h3>
@@ -74,7 +74,7 @@ include 'header.php';
             </div>
         </div>
 
-        <div class="" uk-scrollspy="cls: uk-animation-slide-right; repeat: true">
+        <div class="" uk-scrollspy="cls: uk-animation-slide-right; repeat: true; delay: 1000">
             <div class="cartao uk-card uk-card-default uk-card-body ">
                 <img width="80" src="assets/imagens/layout.png" alt="">
                 <h3 class="uk-card-title titulo-card">Layout Dinâmico</h3>
@@ -113,7 +113,7 @@ include 'header.php';
                 </h3>
             </div>
 
-            <div class="uk-width-1-2@m" uk-scrollspy="cls: uk-animation-slide-right; repeat: true">
+            <div class="uk-width-1-2@m" uk-scrollspy="cls: uk-animation-slide-right; repeat: true; delay: 500">
                 <img width="500" src="assets/imagens/homem.png" alt="">
             </div>
 
@@ -237,7 +237,7 @@ include 'header.php';
 
 
 
-        <div uk-scrollspy="cls: uk-animation-slide-top; repeat: true">
+        <div uk-scrollspy="cls: uk-animation-slide-top; repeat: true; delay: 500">
             <div class="uk-card uk-card-default uk-card-body card-planos-ouro">
                 <h3 class="titulo-card-plano">OURO</h3>
                 <div class="uk-flex uk-flex-middle">
@@ -336,7 +336,7 @@ include 'header.php';
 
 
 
-        <div uk-scrollspy="cls: uk-animation-slide-right; repeat: true">
+        <div uk-scrollspy="cls: uk-animation-slide-right; repeat: true; delay: 1000">
             <div class="uk-card uk-card-default uk-card-body card-planos-platinum">
                 <h3 class=" titulo-card-plano">PLATINUM</h3>
                 <div class="uk-flex uk-flex-middle">
@@ -420,6 +420,7 @@ include 'header.php';
                         <p class="texto-card-planos"> 6 meses de desconto em alterações complexas</p>
                     </div>
                 </div>
+                <br>
 
                 <div class="linha-planos"> </div>
                 <h4 class="texto-investir ">Investir por apenas: <br> <span class="texto-destaque"> R$ 1.899,99 </span> </h4>
@@ -565,7 +566,7 @@ include 'header.php';
             </div>
 
 
-            <div uk-scrollspy="cls: uk-animation-slide-right; repeat: true">
+            <div uk-scrollspy="cls: uk-animation-slide-right; repeat: true; delay: 500">
                 <h3 class="subtitulo-contato"> <b> Utilize nossos meios de contato: </b></h3>
 
                 <p class="texto-contato">

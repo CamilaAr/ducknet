@@ -111,7 +111,7 @@ include 'header.php';
 
 
 
-        <div uk-scrollspy="cls: uk-animation-slide-top; repeat: true">
+        <div uk-scrollspy="cls: uk-animation-slide-top; repeat: true; delay: 500">
             <div class="uk-card uk-card-default uk-card-body card-planos-ouro">
                 <h3 class="titulo-card-plano">OURO</h3>
                 <div class="uk-flex uk-flex-middle">
@@ -210,7 +210,7 @@ include 'header.php';
 
 
 
-        <div uk-scrollspy="cls: uk-animation-slide-right; repeat: true">
+        <div uk-scrollspy="cls: uk-animation-slide-right; repeat: true; delay: 1000">
             <div class="uk-card uk-card-default uk-card-body card-planos-platinum">
                 <h3 class=" titulo-card-plano">PLATINUM</h3>
                 <div class="uk-flex uk-flex-middle">
@@ -385,7 +385,7 @@ include 'header.php';
                 <img src="assets/imagens/ganha-dinheiro.png" width="80%" alt="">
             </div>
 
-            <div class="uk-width-1-2@m" uk-scrollspy="cls: uk-animation-slide-right; repeat: true">
+            <div class="uk-width-1-2@m" uk-scrollspy="cls: uk-animation-slide-right; repeat: true; delay: 500">
                 <div style="text-align: center;">
                     <br>
                     <p class="texto-planos">
@@ -485,7 +485,7 @@ include 'header.php';
             </div>
 
 
-            <div style="text-align: center;" class="uk-width-1-2@m" uk-scrollspy="cls: uk-animation-slide-right; repeat: true">
+            <div style="text-align: center;" class="uk-width-1-2@m" uk-scrollspy="cls: uk-animation-slide-right; repeat: true; delay: 500">
                 <img src="assets/imagens/ouro.png" width="80%" alt="">
             </div>
 
@@ -515,7 +515,7 @@ include 'header.php';
                 <img src="assets/imagens/economizar.jpg" width="80%" alt="">
             </div>
 
-            <div class="uk-width-1-2@m" uk-scrollspy="cls: uk-animation-slide-right; repeat: true">
+            <div class="uk-width-1-2@m" uk-scrollspy="cls: uk-animation-slide-right; repeat: true; delay: 500">
                 <div style="text-align: center;">
                     <br>
                     <p class="texto-planos-preto">
@@ -614,7 +614,7 @@ include 'header.php';
                 </div>
             </div>
 
-            <div style="text-align: center;" class="uk-width-1-2@m" uk-scrollspy="cls: uk-animation-slide-right; repeat: true">
+            <div style="text-align: center;" class="uk-width-1-2@m" uk-scrollspy="cls: uk-animation-slide-right; repeat: true; delay: 500">
                 <img src="assets/imagens/suport.png" width="80%" alt="">
             </div>
 

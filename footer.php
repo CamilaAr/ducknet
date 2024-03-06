@@ -40,7 +40,7 @@
         </div>
 
         <br>
-        <div style="text-align: center;">
+        <div style="text-align: center;" >
             <p>
                 2024 - Todos os direitos reservados
             </p>
@@ -48,7 +48,7 @@
     </div>
 </div>
 
-<div class="uk-position-fixed uk-position-bottom-right">
+<div class="uk-position-fixed uk-position-bottom-right" uk-scrollspy="cls: uk-animation-shake; repeat: true; delay: 500">
     <div class="uk-container">
         <img src="assets/imagens/whatsapp.png" width="80" alt="Vantagens" class="imagem-vantagem">
 
