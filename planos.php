@@ -381,17 +381,255 @@ include 'header.php';
         </div>
         <div class="uk-grid">
 
-            <div class="uk-width-1-3">
-
+            <div style="text-align: center;" class="uk-width-1-2@m" uk-scrollspy="cls: uk-animation-slide-left; repeat: true">
+                <img src="assets/imagens/ganha-dinheiro.png" width="80%" alt="">
             </div>
 
-            <div class="uk-width-2-3">
+            <div class="uk-width-1-2@m" uk-scrollspy="cls: uk-animation-slide-right; repeat: true">
+                <div style="text-align: center;">
+                    <br>
+                    <p class="texto-planos">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt justo eu vestibulum
+                        hendrerit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt justo eu
+                        vestibulum hendrerit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Cras tincidunt justo eu vestibulum hendrerit.
+                    </p>
+                </div>
 
+                <div class="uk-child-width-1-2" uk-grid>
+                    <div>
+                        <img src="assets/imagens/estrela.png" width="50px;" alt="">
+                        <span style="color: white;"> LOREM IPSUM </span>
+                        <br>
+                        <img src="assets/imagens/estrela.png" width="50px;" alt="">
+                        <span style="color: white;"> LOREM IPSUM </span>
+                        <br>
+                        <img src="assets/imagens/estrela.png" width="50px;" alt="">
+                        <span style="color: white;"> LOREM IPSUM </span>
+                        <br>
+                    </div>
+
+                    <div style="text-align: right;">
+                        <img src="assets/imagens/estrela.png" width="50px;" alt="">
+                        <span style="color: white;"> LOREM IPSUM </span>
+                        <br>
+                        <img src="assets/imagens/estrela.png" width="50px;" alt="">
+                        <span style="color: white;"> LOREM IPSUM </span>
+                        <br>
+                        <img src="assets/imagens/estrela.png" width="50px;" alt="">
+                        <span style="color: white;"> LOREM IPSUM </span>
+                        <br>
+                    </div>
+                </div>
             </div>
 
         </div>
     </div>
+    <div style="text-align: center;" uk-scrollspy="cls: uk-animation-shake; repeat: true">
+        <br>
+        <button class="uk-button botao-fundo-escuro"> QUERO SER PLATINUM</button>
+
+    </div>
+
+    <br>
 </div>
+
+
+
+<div style="background-color: #FF7B16;">
+    <div class="uk-container">
+        <div style="text-align: center;">
+            <br>
+            <h2 class="titulo-verde" uk-scrollspy="cls: uk-animation-slide-top; repeat: true"> Porque ser Ouro? </h2>
+            <br>
+        </div>
+        <div class="uk-grid">
+
+            
+            <div class="uk-width-1-2@m" uk-scrollspy="cls: uk-animation-slide-left; repeat: true">
+                <div style="text-align: center;">
+                    <br>
+                    <p class="texto-planos-preto">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt justo eu vestibulum
+                        hendrerit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt justo eu
+                        vestibulum hendrerit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Cras tincidunt justo eu vestibulum hendrerit.
+                    </p>
+                </div>
+
+                <div class="uk-child-width-1-2" uk-grid>
+                    <div>
+                        <img src="assets/imagens/estrela.png" width="50px;" alt="">
+                        <span style="color: black;"> LOREM IPSUM </span>
+                        <br>
+                        <img src="assets/imagens/estrela.png" width="50px;" alt="">
+                        <span style="color: black;"> LOREM IPSUM </span>
+                        <br>
+                        <img src="assets/imagens/estrela.png" width="50px;" alt="">
+                        <span style="color: black;"> LOREM IPSUM </span>
+                        <br>
+                    </div>
+
+                    <div style="text-align: right;">
+                        <img src="assets/imagens/estrela.png" width="50px;" alt="">
+                        <span style="color: black;"> LOREM IPSUM </span>
+                        <br>
+                        <img src="assets/imagens/estrela.png" width="50px;" alt="">
+                        <span style="color: black;"> LOREM IPSUM </span>
+                        <br>
+                        <img src="assets/imagens/estrela.png" width="50px;" alt="">
+                        <span style="color: black;"> LOREM IPSUM </span>
+                        <br>
+                    </div>
+                </div>
+            </div>
+
+
+            <div style="text-align: center;" class="uk-width-1-2@m" uk-scrollspy="cls: uk-animation-slide-right; repeat: true">
+                <img src="assets/imagens/ouro.png" width="80%" alt="">
+            </div>
+
+
+        </div>
+    </div>
+    <div style="text-align: center;" uk-scrollspy="cls: uk-animation-shake; repeat: true">
+        <br>
+        <button class="uk-button botao-padrao"> QUERO SER OURO</button>
+
+    </div>
+
+    <br>
+</div>
+
+
+<div >
+    <div class="uk-container">
+        <div style="text-align: center;">
+            <br>
+            <h2 class="titulo" uk-scrollspy="cls: uk-animation-slide-top; repeat: true"> Porque ser Prata? </h2>
+            <br>
+        </div>
+        <div class="uk-grid">
+
+            <div style="text-align: center;" class="uk-width-1-2@m" uk-scrollspy="cls: uk-animation-slide-left; repeat: true">
+                <img src="assets/imagens/economizar.jpg" width="80%" alt="">
+            </div>
+
+            <div class="uk-width-1-2@m" uk-scrollspy="cls: uk-animation-slide-right; repeat: true">
+                <div style="text-align: center;">
+                    <br>
+                    <p class="texto-planos-preto">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt justo eu vestibulum
+                        hendrerit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt justo eu
+                        vestibulum hendrerit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Cras tincidunt justo eu vestibulum hendrerit.
+                    </p>
+                </div>
+
+                <div class="uk-child-width-1-2" uk-grid>
+                    <div>
+                        <img src="assets/imagens/estrela.png" width="50px;" alt="">
+                        <span style="color: black;"> LOREM IPSUM </span>
+                        <br>
+                        <img src="assets/imagens/estrela.png" width="50px;" alt="">
+                        <span style="color: black;"> LOREM IPSUM </span>
+                        <br>
+                        <img src="assets/imagens/estrela.png" width="50px;" alt="">
+                        <span style="color: black;"> LOREM IPSUM </span>
+                        <br>
+                    </div>
+
+                    <div style="text-align: right;">
+                        <img src="assets/imagens/estrela.png" width="50px;" alt="">
+                        <span style="color: black;"> LOREM IPSUM </span>
+                        <br>
+                        <img src="assets/imagens/estrela.png" width="50px;" alt="">
+                        <span style="color: black;"> LOREM IPSUM </span>
+                        <br>
+                        <img src="assets/imagens/estrela.png" width="50px;" alt="">
+                        <span style="color: black;"> LOREM IPSUM </span>
+                        <br>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div style="text-align: center;" uk-scrollspy="cls: uk-animation-shake; repeat: true">
+        <br>
+        <button class="uk-button botao-fundo-escuro"> QUERO SER PRATA</button>
+
+    </div>
+
+    <br>
+</div>
+
+
+<div style="background-color: #004250;">
+    <div class="uk-container">
+        <div style="text-align: center;">
+            <br>
+            <h2 class="titulo" uk-scrollspy="cls: uk-animation-slide-top; repeat: true"> Porque ter Suporte? </h2>
+            <br>
+        </div>
+        <div class="uk-grid">
+
+            
+
+            <div class="uk-width-1-2@m" uk-scrollspy="cls: uk-animation-slide-left; repeat: true">
+                <div style="text-align: center;">
+                    <br>
+                    <p class="texto-planos">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt justo eu vestibulum
+                        hendrerit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt justo eu
+                        vestibulum hendrerit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Cras tincidunt justo eu vestibulum hendrerit.
+                    </p>
+                </div>
+
+                <div class="uk-child-width-1-2" uk-grid>
+                    <div>
+                        <img src="assets/imagens/estrela.png" width="50px;" alt="">
+                        <span style="color: white;"> LOREM IPSUM </span>
+                        <br>
+                        <img src="assets/imagens/estrela.png" width="50px;" alt="">
+                        <span style="color: white;"> LOREM IPSUM </span>
+                        <br>
+                        <img src="assets/imagens/estrela.png" width="50px;" alt="">
+                        <span style="color: white;"> LOREM IPSUM </span>
+                        <br>
+                    </div>
+
+                    <div style="text-align: right;">
+                        <img src="assets/imagens/estrela.png" width="50px;" alt="">
+                        <span style="color: white;"> LOREM IPSUM </span>
+                        <br>
+                        <img src="assets/imagens/estrela.png" width="50px;" alt="">
+                        <span style="color: white;"> LOREM IPSUM </span>
+                        <br>
+                        <img src="assets/imagens/estrela.png" width="50px;" alt="">
+                        <span style="color: white;"> LOREM IPSUM </span>
+                        <br>
+                    </div>
+                </div>
+            </div>
+
+            <div style="text-align: center;" class="uk-width-1-2@m" uk-scrollspy="cls: uk-animation-slide-right; repeat: true">
+                <img src="assets/imagens/suport.png" width="80%" alt="">
+            </div>
+
+        </div>
+    </div>
+    <div style="text-align: center;" uk-scrollspy="cls: uk-animation-shake; repeat: true">
+        <br>
+        <button class="uk-button botao-fundo-escuro"> QUERO TER SUPORTE</button>
+
+    </div>
+
+    <br>
+</div>
+
+
 <?php
 
 include 'footer.php';

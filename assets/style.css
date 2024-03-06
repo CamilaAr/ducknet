@@ -1,27 +1,34 @@
-
-
 .cabec {
-    background-color: #050505; 
+    background-color: #050505;
     color: white;
-    padding-top:10px;
+    padding-top: 10px;
     padding-bottom: 10px;
 }
 
 /* Estilo da borda */
 .borda-customizada {
-    border-style: solid; /* Estilo da borda (pode ser solid, dashed, dotted, etc.) */
-    border-width: 3px; /* Largura da borda */
-    border-color: black; /* Cor da borda */
-    border-radius: 5px; /* Raio do arredondamento dos cantos da borda */
+    border-style: solid;
+    /* Estilo da borda (pode ser solid, dashed, dotted, etc.) */
+    border-width: 3px;
+    /* Largura da borda */
+    border-color: black;
+    /* Cor da borda */
+    border-radius: 5px;
+    /* Raio do arredondamento dos cantos da borda */
 
 }
 
 
 
-.menu{
-    border-bottom: 2px solid #FF7B16; /* Adiciona uma linha laranja na borda inferior */
-    padding-bottom: 10px; /* Ajusta o espaçamento entre o conteúdo e a linha */
+.menu {
+    border-bottom: 2px solid #FF7B16;
+    /* Adiciona uma linha laranja na borda inferior */
+    padding-bottom: 10px;
+    /* Ajusta o espaçamento entre o conteúdo e a linha */
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.315);
+
 }
+
 
 .itemMenu {
     font-size: 25px;
@@ -37,40 +44,40 @@
     margin-right: 20px;
 }
 
-.titulo-card{
+.titulo-card {
     color: #004250;
     font-weight: bold;
 
 }
 
-.texto-card{
+.texto-card {
     color: white;
 }
 
-.botao-padrao{
+.botao-padrao {
     border-radius: 8px !important;
     background-color: #004250;
-    color:white !important;
+    color: white !important;
     font-size: 20px !important;
     font-weight: bold !important;
     padding: 8px 30px !important;
 
 }
 
-.titulo{
+.titulo {
     color: #FF7B16;
     font-weight: bold;
 
 }
 
-.titulo-verde{
+.titulo-verde {
     color: #004250;
-    font-weight: bold; 
+    font-weight: bold;
 }
 
 
-.texto{
-    color:white;
+.texto {
+    color: white;
 }
 
 .texto-destaque {
@@ -82,10 +89,10 @@
 .botao-fundo-escuro {
     border-radius: 8px !important;
     background-color: #FF7B16;
-    color:white !important;
+    color: white !important;
     font-size: 20px !important;
     font-weight: bold !important;
-    padding: 8px 30px !important;    
+    padding: 8px 30px !important;
 }
 
 .titulo-card-plano {
@@ -94,59 +101,75 @@
     color: black;
 }
 
-.card-planos-prata{
-    border-style: solid; /* Estilo da borda (pode ser solid, dashed, dotted, etc.) */
-    border-width: 2px; /* Largura da borda */
-    border-color: black; /* Cor da borda */
-    border-radius: 20px; /* Raio do arredondamento dos cantos da borda */
-    background: rgb(115,115,115);
-    background: linear-gradient(180deg, rgba(115,115,115,1) 0%, rgba(153,159,148,1) 47%, rgba(255,255,255,1) 91%);
+.card-planos-prata {
+    border-style: solid;
+    /* Estilo da borda (pode ser solid, dashed, dotted, etc.) */
+    border-width: 2px;
+    /* Largura da borda */
+    border-color: black;
+    /* Cor da borda */
+    border-radius: 20px;
+    /* Raio do arredondamento dos cantos da borda */
+    background: rgb(115, 115, 115);
+    background: linear-gradient(180deg, rgba(115, 115, 115, 1) 0%, rgba(153, 159, 148, 1) 47%, rgba(255, 255, 255, 1) 91%);
 }
 
-.card-planos-ouro{
-    border-style: solid; /* Estilo da borda (pode ser solid, dashed, dotted, etc.) */
-    border-width: 2px; /* Largura da borda */
-    border-color: black; /* Cor da borda */
-    border-radius: 20px; /* Raio do arredondamento dos cantos da borda */
-    background: rgb(137,73,0);
-    background: linear-gradient(180deg, rgba(137,73,0,1) 0%, rgba(247,220,116,1) 47%, rgba(255,255,255,1) 91%);
+.card-planos-ouro {
+    border-style: solid;
+    /* Estilo da borda (pode ser solid, dashed, dotted, etc.) */
+    border-width: 2px;
+    /* Largura da borda */
+    border-color: black;
+    /* Cor da borda */
+    border-radius: 20px;
+    /* Raio do arredondamento dos cantos da borda */
+    background: rgb(137, 73, 0);
+    background: linear-gradient(180deg, rgba(137, 73, 0, 1) 0%, rgba(247, 220, 116, 1) 47%, rgba(255, 255, 255, 1) 91%);
 }
 
-.card-planos-platinum{
-    border-style: solid; /* Estilo da borda (pode ser solid, dashed, dotted, etc.) */
-    border-width: 2px; /* Largura da borda */
-    border-color: black; /* Cor da borda */
-    border-radius: 20px; /* Raio do arredondamento dos cantos da borda */
-    background: rgb(175,33,127);
-    background: linear-gradient(180deg, rgba(175,33,127,1) 0%, rgba(199,66,171,1) 47%, rgba(255,255,255,1) 91%);
+.card-planos-platinum {
+    border-style: solid;
+    /* Estilo da borda (pode ser solid, dashed, dotted, etc.) */
+    border-width: 2px;
+    /* Largura da borda */
+    border-color: black;
+    /* Cor da borda */
+    border-radius: 20px;
+    /* Raio do arredondamento dos cantos da borda */
+    background: rgb(175, 33, 127);
+    background: linear-gradient(180deg, rgba(175, 33, 127, 1) 0%, rgba(199, 66, 171, 1) 47%, rgba(255, 255, 255, 1) 91%);
 }
 
 
-.card-planos-suporte{
-    border-style: solid; /* Estilo da borda (pode ser solid, dashed, dotted, etc.) */
-    border-width: 2px; /* Largura da borda */
-    border-color: black; /* Cor da borda */
-    border-radius: 20px; /* Raio do arredondamento dos cantos da borda */
-    background: rgb(20,25,113);
-    background: linear-gradient(180deg, rgba(20,25,113,1) 0%, rgba(83,87,255,1) 47%, rgba(255,255,255,1) 91%);
+.card-planos-suporte {
+    border-style: solid;
+    /* Estilo da borda (pode ser solid, dashed, dotted, etc.) */
+    border-width: 2px;
+    /* Largura da borda */
+    border-color: black;
+    /* Cor da borda */
+    border-radius: 20px;
+    /* Raio do arredondamento dos cantos da borda */
+    background: rgb(20, 25, 113);
+    background: linear-gradient(180deg, rgba(20, 25, 113, 1) 0%, rgba(83, 87, 255, 1) 47%, rgba(255, 255, 255, 1) 91%);
 }
 
 
 
-.texto-card-planos{
+.texto-card-planos {
     color: black;
     font-weight: bold;
 }
 
-.linha-planos{
-    background-color:#004250; 
+.linha-planos {
+    background-color: #004250;
     height: 5px;
 }
 
 .texto-investir {
-    font-weight: bold; 
-    color: black; 
-    text-align:center;
+    font-weight: bold;
+    color: black;
+    text-align: center;
 }
 
 .texto-formulario {
@@ -159,34 +182,42 @@
     margin-right: 10px;
 }
 
-.campo-formulario{
+.campo-formulario {
     border-radius: 10px !important;
 }
 
-.label-formulario{
+.label-formulario {
     margin-left: 10px !important;
     color: black;
 }
 
 
-.texto-contato{
+.texto-contato {
     color: white;
     text-align: center;
 }
 
-.subtitulo-contato{
+.subtitulo-contato {
     color: white;
     text-align: center;
 }
 
-@media (max-width: 900px){
+.texto-planos {
+    font-size: 18px;
+    color: white;
+}
 
-    .mobile-centro{
+.texto-planos-preto {
+    font-size: 18px;
+    color: black;
+}
+
+@media (max-width: 900px) {
+
+    .mobile-centro {
         text-align: center;
     }
 
 }
 
-@media (min-width: 900px){
-
-}
+@media (min-width: 900px) {}
